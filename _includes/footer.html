@@ -1,0 +1,48 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="{{ '/' | relative_url }}" class="site-logo">
+          <span class="logo-mark">L42</span>
+          <span class="logo-text">Lab42</span>
+        </a>
+        <p>Independent research and consulting.<br>We build, automate, and explore.</p>
+        {% if site.email %}
+        <a href="mailto:{{ site.email }}" class="footer-email">{{ site.email }}</a>
+        {% endif %}
+      </div>
+
+      <div class="footer-col">
+        <h4>Business Units</h4>
+        <ul>
+          <li><a href="{{ '/puppet/' | relative_url }}">Puppet Consulting</a></li>
+          <li><a href="{{ '/devops/' | relative_url }}">DevOps &amp; Cloud</a></li>
+          <li><a href="{{ '/ai/' | relative_url }}">AI Research &amp; Dev</a></li>
+          <li><a href="{{ '/media/' | relative_url }}">Media &amp; Podcasts</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Projects</h4>
+        <ul>
+          <li><a href="https://example42.com" target="_blank" rel="noopener">example42.com</a></li>
+          <li><a href="{{ '/ai/#wlaudio' | relative_url }}">Wlaudio</a></li>
+          <li><a href="{{ '/media/#la-brigata' | relative_url }}">La Brigata dei Geek Estinti</a></li>
+          <li><a href="{{ '/media/#abnormal-devops' | relative_url }}">Abnormal DevOps Iterations</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="{{ '/about/' | relative_url }}">About Lab42</a></li>
+          <li><a href="mailto:{{ site.email }}">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ 'now' | date: "%Y" }} Lab42 srl — All rights reserved.</p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="page-hero {% if page.unit %}hero-{{ page.unit }}{% endif %}">
+  <div class="container">
+    <div class="page-hero-content">
+      {% if page.icon %}
+      <div class="page-icon">{{ page.icon }}</div>
+      {% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.subtitle %}
+      <p class="page-subtitle">{{ page.subtitle }}</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="page-content">
+  <div class="container">
+    {{ content }}
+  </div>
+</div>

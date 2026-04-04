@@ -1,0 +1,52 @@
+title: Lab42
+tagline: Independent Research & Consulting
+description: >-
+  Lab42 srl is an independent research and consulting company specializing in
+  Puppet infrastructure automation, DevOps and cloud consulting, AI research
+  and development, and technology media production.
+baseurl: ""
+url: "https://www.lab42.it"
+
+author:
+  name: Lab42 srl
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md
+
+# Navigation
+nav:
+  - title: Puppet
+    url: /puppet/
+    icon: puppet
+    color: "#FF6B00"
+  - title: DevOps & Cloud
+    url: /devops/
+    icon: devops
+    color: "#0EA5E9"
+  - title: AI Research
+    url: /ai/
+    icon: ai
+    color: "#8B5CF6"
+  - title: Media
+    url: /media/
+    icon: media
+    color: "#EF4444"
+
+# Social / Contact
+email: info@lab42.it
+github_username: lab42

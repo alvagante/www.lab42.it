@@ -1,0 +1,30 @@
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="{{ '/' | relative_url }}" class="site-logo">
+        <span class="logo-mark">L42</span>
+        <span class="logo-text">Lab42</span>
+      </a>
+
+      <nav class="site-nav" id="site-nav">
+        <a href="{{ '/puppet/' | relative_url }}" class="nav-link nav-puppet {% if page.url contains '/puppet' %}active{% endif %}">
+          <span class="nav-dot"></span>Puppet
+        </a>
+        <a href="{{ '/devops/' | relative_url }}" class="nav-link nav-devops {% if page.url contains '/devops' %}active{% endif %}">
+          <span class="nav-dot"></span>DevOps &amp; Cloud
+        </a>
+        <a href="{{ '/ai/' | relative_url }}" class="nav-link nav-ai {% if page.url contains '/ai' %}active{% endif %}">
+          <span class="nav-dot"></span>AI Research
+        </a>
+        <a href="{{ '/media/' | relative_url }}" class="nav-link nav-media {% if page.url contains '/media' %}active{% endif %}">
+          <span class="nav-dot"></span>Media
+        </a>
+        <a href="{{ '/about/' | relative_url }}" class="nav-link {% if page.url contains '/about' %}active{% endif %}">About</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
