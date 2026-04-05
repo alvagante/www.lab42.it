@@ -29,6 +29,9 @@ When you visit this site, your browser may connect to third-party services that 
 |---------|---------|-------------------|
 | Google Fonts | Loading web fonts (Inter, JetBrains Mono) | [Google Privacy Policy](https://policies.google.com/privacy) |
 | GitHub Pages | Site hosting infrastructure | [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) |
+| Cloudflare | DNS, CDN, and DDoS protection | [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/) |
+
+Cloudflare sits between visitors and the site's origin server. It may process your IP address and HTTP request data for security and performance purposes, and may set a `__cf_buid` cookie (technically necessary, used for bot detection). See [Cloudflare's cookie policy](https://www.cloudflare.com/cookie-policy/) for details.
 
 Google Fonts requests may cause your IP address to be sent to Google's servers. Since May 2022, Google Fonts can be configured to not log IP addresses — our implementation uses the standard CDN embed. If you prefer to avoid this connection, you can block `fonts.googleapis.com` and `fonts.gstatic.com` in your browser or via a DNS-level blocker; the site will fall back to system fonts.
 
