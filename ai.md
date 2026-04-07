@@ -3,7 +3,7 @@ layout: page
 title: AI Research
 subtitle: Applied AI — from language model research to production tools and agentic systems.
 unit: ai
-description: Lab42 AI unit develops intelligent tools and conducts applied research in large language models and AI-assisted development. Current project: Wlaudio, a web interface for Claude Code.
+description: "Lab42 AI unit develops intelligent tools and conducts applied research in large language models and AI-assisted development. Current project: Wlaudio, a web interface for Claude Code."
 permalink: /ai/
 ---
 
