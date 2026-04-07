@@ -1,20 +1,22 @@
 ---
 layout: page
 title: AI Research
-subtitle: Applied AI — from language model research to production tools and agentic systems.
+subtitle: We're learning, experimenting, and occasionally shipping things. Mostly in that order.
 unit: ai
-description: "Lab42 AI unit develops intelligent tools and conducts applied research in large language models and AI-assisted development. Current project: Wlaudio, a web interface for Claude Code."
+description: "Lab42 AI unit — applied AI research and tool development. We experiment with LLMs, agentic systems, and developer tooling. Current project: Wlaudio."
 permalink: /ai/
 ---
+
+AI is moving fast and anyone who tells you they have it figured out is selling something. We don't. We're infrastructure people who got genuinely curious about what happens when you give a language model access to a shell — and we've been poking at it ever since.
 
 ## Wlaudio
 
 <div id="wlaudio" class="project-highlight">
   <div class="project-highlight-info">
-    <div class="project-tag">Active Project</div>
+    <div class="project-tag">Work in Progress</div>
     <h3>Wlaudio</h3>
-    <p>A web interface for Claude Code — bringing Anthropic's AI coding assistant to the browser. Designed for developers who want AI-assisted coding without leaving their workflow.</p>
-    <p>Wlaudio explores agentic AI in software development: natural language interaction with codebases, automated refactoring, documentation generation, intelligent debugging.</p>
+    <p>A web interface for Claude Code. The idea: make Anthropic's AI coding assistant accessible from the browser, without requiring a terminal setup. Whether this turns out to be a useful tool or an interesting experiment remains to be seen — probably both.</p>
+    <p>It's also how we learn. Building it has taught us more about agentic AI, context management, and the limits of LLMs than any paper we've read.</p>
     <div style="margin-top:14px;">
       <span class="chip">Claude API</span>
       <span class="chip">Claude Code SDK</span>
@@ -24,24 +26,24 @@ permalink: /ai/
   </div>
 </div>
 
-## Research Areas
+## What we're exploring
 
 <div class="feature-grid">
   <div class="feature-card">
     <h3>LLM Integration</h3>
-    <p>API integration, prompt engineering, context management, and evaluation frameworks.</p>
+    <p>Making models useful in real systems — not just demos. Prompt engineering, context limits, evaluation, and the gap between benchmark and production.</p>
   </div>
   <div class="feature-card">
     <h3>Agentic Systems</h3>
-    <p>Multi-step agents, tool use, and autonomous workflows for infrastructure and dev automation.</p>
+    <p>Multi-step agents that do things autonomously. Exciting when it works, instructive when it doesn't.</p>
   </div>
   <div class="feature-card">
-    <h3>AI-Assisted Dev</h3>
-    <p>Coding assistants, agentic workflows, and the future of software engineering with LLMs.</p>
+    <h3>AI + DevOps</h3>
+    <p>What does infrastructure automation look like when the automation can reason? We're not sure yet, but we're finding out.</p>
   </div>
   <div class="feature-card">
     <h3>RAG &amp; Knowledge</h3>
-    <p>Retrieval-augmented generation pipelines connecting LLMs to domain-specific knowledge.</p>
+    <p>Connecting LLMs to domain knowledge that actually matters. Less hallucination, more usefulness.</p>
   </div>
 </div>
 
@@ -56,11 +58,8 @@ permalink: /ai/
 <span class="chip">Vector DBs</span>
 <span class="chip">RAG Pipelines</span>
 
-## Consulting
+## Can we help?
 
-- **AI readiness** — where AI fits in your workflows and how to get started
-- **LLM integration** — model selection, pipeline design, building safely
-- **Custom tooling** — AI-powered internal tools for your domain
-- **Team training** — practical workshops on working with LLMs
+Maybe. We're not AI consultants in the "we'll transform your business with AI" sense. But if you're trying to do something concrete with LLMs and want to talk to people who've broken things in interesting ways, we're up for that conversation.
 
-<a href="mailto:info@lab42.it" class="btn btn-primary">Talk to us about AI</a>
+<a href="mailto:info@lab42.it" class="btn btn-primary">Let's talk</a>
