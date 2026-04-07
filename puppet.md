@@ -1,69 +1,42 @@
 ---
 layout: page
 title: Puppet Consulting
-subtitle: Expert infrastructure automation and configuration management with Puppet — the technology behind example42.
+subtitle: Infrastructure automation and configuration management. Home of the example42 community.
 unit: puppet
-icon: "🐘"
 description: Lab42 offers professional Puppet consulting, module development, training, and infrastructure automation services. Home of the example42 Puppet community.
 permalink: /puppet/
----
-
-## Infrastructure Automation, Done Right
-
-Lab42 has been in the Puppet ecosystem for over a decade. We help organizations
-design, implement, and maintain robust infrastructure automation using Puppet —
-reducing complexity and delivering reliable, repeatable systems at scale.
-
-We are the team behind **[example42.com](https://example42.com)**, one of the most
-established Puppet community resources, offering open-source modules, tutorials,
-and best practices adopted by organizations worldwide.
-
 ---
 
 ## Services
 
 <div class="feature-grid">
   <div class="feature-card">
-    <div class="feature-card-icon">⚙️</div>
-    <h3>Puppet Implementation</h3>
-    <p>From greenfield deployments to legacy migrations — we architect and implement
-    Puppet environments tailored to your infrastructure.</p>
+    <h3>Implementation</h3>
+    <p>Greenfield deployments and legacy migrations. We architect Puppet environments that scale.</p>
   </div>
   <div class="feature-card">
-    <div class="feature-card-icon">📦</div>
     <h3>Module Development</h3>
-    <p>Custom Puppet modules designed for your stack. Clean, tested, maintainable
-    code that follows Puppet best practices.</p>
+    <p>Custom modules for your stack. Tested, maintainable, following Puppet best practices.</p>
   </div>
   <div class="feature-card">
-    <div class="feature-card-icon">🔍</div>
-    <h3>Audit & Optimization</h3>
-    <p>Assessment of existing Puppet codebases, performance tuning, and refactoring
-    to reduce technical debt.</p>
+    <h3>Audit &amp; Optimization</h3>
+    <p>Assessment of existing codebases, performance tuning, and technical debt reduction.</p>
   </div>
   <div class="feature-card">
-    <div class="feature-card-icon">🎓</div>
-    <h3>Training & Workshops</h3>
-    <p>Hands-on training for development teams — from Puppet fundamentals to advanced
-    patterns and enterprise deployment strategies.</p>
+    <h3>Training</h3>
+    <p>Hands-on workshops from fundamentals to advanced enterprise patterns.</p>
   </div>
   <div class="feature-card">
-    <div class="feature-card-icon">🏢</div>
     <h3>Enterprise Support</h3>
-    <p>Ongoing advisory, troubleshooting, and architectural guidance for teams
-    running Puppet at scale.</p>
+    <p>Ongoing advisory and troubleshooting for teams running Puppet at scale.</p>
   </div>
   <div class="feature-card">
-    <div class="feature-card-icon">🔗</div>
     <h3>Ecosystem Integration</h3>
-    <p>Integrating Puppet with Hiera, r10k, Foreman, Vault, and your existing
-    CI/CD and CMDB toolchains.</p>
+    <p>Hiera, r10k, Foreman, Vault, and your existing CI/CD and CMDB toolchains.</p>
   </div>
 </div>
 
----
-
-## Technologies
+## Stack
 
 <span class="chip">Puppet</span>
 <span class="chip">Puppet Enterprise</span>
@@ -71,33 +44,19 @@ and best practices adopted by organizations worldwide.
 <span class="chip">r10k</span>
 <span class="chip">Foreman</span>
 <span class="chip">PuppetDB</span>
-<span class="chip">Ruby</span>
-<span class="chip">Facter</span>
 <span class="chip">Bolt</span>
-<span class="chip">CDK / AWX</span>
-
----
+<span class="chip">Facter</span>
+<span class="chip">Ruby</span>
 
 ## example42
 
 <div class="project-highlight">
   <div class="project-highlight-info">
-    <div class="project-tag">🐘 Community Project</div>
+    <div class="project-tag">Community Project</div>
     <h3>example42.com</h3>
-    <p>
-      example42 is Lab42's flagship open-source Puppet resource — a collection
-      of modules, guides, and best practices that has served the Puppet community
-      for years. Whether you're building your first manifest or managing thousands
-      of nodes, example42 has resources to help.
-    </p>
-    <a href="https://example42.com" target="_blank" rel="noopener" class="btn btn-outline" style="display:inline-flex;margin-top:16px;">
-      Visit example42.com →
-    </a>
+    <p>Open-source Puppet modules, guides, and best practices adopted by organizations worldwide. A Lab42 community resource, running for over a decade.</p>
+    <a href="https://example42.com" target="_blank" rel="noopener" class="btn btn-outline" style="display:inline-flex;margin-top:16px;">Visit example42.com →</a>
   </div>
 </div>
-
----
-
-## Ready to automate your infrastructure?
 
 <a href="mailto:info@lab42.it" class="btn btn-primary">Contact us about Puppet</a>
