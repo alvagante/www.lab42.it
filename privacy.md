@@ -33,8 +33,6 @@ This website is a static site. We do not operate user accounts, contact forms, o
 
 ## Third-party services
 
-This site loads fonts from **Google Fonts** (Google LLC, USA). When your browser requests font files, your IP address is transmitted to Google's servers. See [Google's privacy policy](https://policies.google.com/privacy) for details.
-
 The site is hosted on **GitHub Pages** (GitHub Inc., USA). GitHub may collect technical data as described in [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
 ---
