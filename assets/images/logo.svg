@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 260" fill="none">
+  <!-- Flask body -->
+  <g transform="translate(20, 0)">
+    <!-- Bubbles above flask -->
+    <circle cx="95" cy="18" r="8" fill="#2c3e50"/>
+    <circle cx="108" cy="35" r="5.5" fill="#2c3e50"/>
+    <circle cx="85" cy="42" r="4" fill="#2c3e50"/>
+    
+    <!-- Flask neck -->
+    <path d="M78 52 L78 95 L30 210 Q25 225 38 235 L162 235 Q175 225 170 210 L122 95 L122 52" 
+          stroke="#2c3e50" stroke-width="10" stroke-linejoin="round" fill="none"/>
+    
+    <!-- Flask top rim -->
+    <line x1="68" y1="52" x2="132" y2="52" stroke="#2c3e50" stroke-width="10" stroke-linecap="round"/>
+    
+    <!-- Liquid fill -->
+    <path d="M55 175 Q60 155 80 165 Q95 172 105 160 Q115 150 130 158 L155 175 L165 210 Q170 225 158 232 L42 232 Q30 225 35 210 Z" 
+          fill="#00bcd4"/>
+    
+    <!-- Bubbles in liquid -->
+    <circle cx="75" cy="200" r="5" fill="#00bcd4" opacity="0.6"/>
+    <circle cx="95" cy="185" r="3.5" fill="#00bcd4" opacity="0.5"/>
+    <circle cx="110" cy="195" r="4" fill="#00bcd4" opacity="0.6"/>
+    <circle cx="85" cy="210" r="3" fill="#00bcd4" opacity="0.5"/>
+  </g>
+  
+  <!-- Text "Lab" -->
+  <text x="230" y="145" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="100" fill="#2c3e50">Lab</text>
+  
+  <!-- Text "42" -->
+  <text x="230" y="235" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="110" fill="#00bcd4">42</text>
+</svg>

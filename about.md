@@ -1,38 +1,43 @@
 ---
 layout: page
 title: About Lab42
-subtitle: An independent Italian company. We work on things we find genuinely interesting.
+subtitle: Independent Italian company. Infrastructure automation, AI, media.
 description: Lab42 srl is an independent Italian research and consulting company working across infrastructure automation, cloud DevOps, AI, and technology media.
 permalink: /about/
 ---
 
-Lab42 srl is an independent research and consulting company based in Italy founded by Alessandro Franceschi, a pioneer and veteran of the IT industry, as founder of an Internet Service Provider in 1996, pioneer of DevOps movement in Italy since 2012. We've spent over a decade in the trenches — building infrastructure, automating stuff, exploring unusual roads.
+<div class="about-hero-split">
+  <div class="about-hero-split__text">
+    <p class="about-tagline">Infrastructure automation, pragmatic approach, wide view on IT. Based in Italy, independent since 1996.</p>
+  </div>
+  <div class="about-hero-split__logo">
+    <img src="/assets/images/logo.svg" alt="Lab42" class="about-logo__img">
+  </div>
+</div>
 
 ## Values
 
 <div class="values-grid">
   <div class="value-item">
     <h3>Independence</h3>
-    <p>Not beholden to any vendor or platform. We recommend what actually works for you.</p>
+    <p>No vendor lock-in. We recommend what works.</p>
   </div>
   <div class="value-item">
-    <h3>Craft</h3>
-    <p>We care about doing things well — clean code, honest communication, solid architecture.</p>
+    <h3>Pragmatism</h3>
+    <p>Straight to the point. Less talk, more results.</p>
   </div>
   <div class="value-item">
     <h3>Curiosity</h3>
-    <p>Genuinely interested in what's next — in technology, in ideas, in the people we work with.</p>
+    <p>Interested in what's next — in tech and in ideas.</p>
   </div>
   <div class="value-item">
     <h3>Community</h3>
-    <p>Open source and knowledge sharing are baked in — not added as an afterthought.</p>
+    <p>Open source and knowledge sharing from day one.</p>
   </div>
 </div>
 
 ## How we work
 
-We're intentionally small. That means you work with the people who actually know the subject, not a team of juniors managed by someone who does the pitch. We're selective about what we take on — and we'll tell you when something isn't the right fit.
-
-Engagements range from short advisory calls to long-term embedded work. No one-size-fits-all packages.
+Small team, senior people. Short advisory calls or long-term embedded work — no fixed packages.
 
 <a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-primary">Book a call</a>
