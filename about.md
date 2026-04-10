@@ -6,7 +6,7 @@ description: Lab42 srl is an independent Italian research and consulting company
 permalink: /about/
 ---
 
-Lab42 srl is an independent research and consulting company based in Italy. We've spent over a decade in the trenches — building infrastructure, shipping software, breaking things (on purpose and not). Four business units, no outside investors, no vendor allegiances.
+Lab42 srl is an independent research and consulting company based in Italy founded by Alessandro Franceschi, a pioneer and veteran of the IT industry, as founder of an Internet Service Provider in 1996, pioneer of DevOps movement in Italy since 2012. We've spent over a decade in the trenches — building infrastructure, automating stuff, exploring unusual roads.
 
 ## Values
 
@@ -35,4 +35,4 @@ We're intentionally small. That means you work with the people who actually know
 
 Engagements range from short advisory calls to long-term embedded work. No one-size-fits-all packages.
 
-<a href="mailto:info@lab42.it" class="btn btn-primary">info@lab42.it</a>
+<a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-primary">Book a call</a>

@@ -1,57 +1,75 @@
 ---
 layout: default
 title: Lab42 — Independent Research & Consulting
-description: Lab42 srl is an independent Italian company working across Puppet infrastructure automation, DevOps and cloud consulting, AI research, and technology media.
+description: Lab42 srl is an independent Italian company working across infrastructure automation, applied AI research, and technology media.
+home: true
 ---
 
-<section class="hero">
+<section class="home-hero">
   <div class="container">
-    <p class="hero-label">Lab42 srl &nbsp;·&nbsp; Italy &nbsp;·&nbsp; Independent</p>
-    <h1 class="hero-title">Infrastructure.<br>Research.<br>Media.</h1>
+    <div class="home-hero__inner">
+      <div class="home-hero__text">
+        <p class="home-hero__eyebrow">Lab42 &nbsp;·&nbsp; Italy &nbsp;·&nbsp; Independent &nbsp;·&nbsp; Since 1996</p>
+        <h1 class="home-hero__title">Infrastructure.<br>AI.<br>Media.</h1>
+      </div>
+      <div class="home-hero__visual" aria-hidden="true">
+        <div class="hero-blobs">
+          <div class="hero-blob hero-blob--infra"></div>
+          <div class="hero-blob hero-blob--ai"></div>
+          <div class="hero-blob hero-blob--media"></div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="units">
+<section class="home-units">
   <div class="container">
+    <div class="home-unit-grid">
 
-    <a href="/puppet/" class="unit-row unit-row--puppet">
-      <span class="unit-row__num">01</span>
-      <span class="unit-row__name">Puppet</span>
-      <span class="unit-row__tag">Infrastructure automation &amp; configuration management</span>
-      <span class="unit-row__meta">10+ yr &nbsp;·&nbsp; example42</span>
-      <span class="unit-row__arrow">→</span>
-    </a>
+      <a href="/example42/" class="home-unit-card home-unit-card--infra">
+        <div class="home-unit-card__icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+            <rect x="3" y="6" width="30" height="9" rx="2" stroke="currentColor" stroke-width="1.6"/>
+            <rect x="3" y="20" width="30" height="9" rx="2" stroke="currentColor" stroke-width="1.6"/>
+            <circle cx="29" cy="10.5" r="1.5" fill="currentColor"/>
+            <circle cx="29" cy="24.5" r="1.5" fill="currentColor"/>
+            <line x1="7" y1="10.5" x2="10" y2="10.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="7" y1="24.5" x2="10" y2="24.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h2 class="home-unit-card__title">Infrastructure<br>&amp; DevOps</h2>
+        <p class="home-unit-card__desc">Puppet, DevOps, Cloud automation consulting and training. We are the company  behind example42 Open Source projects. Trusted by organizations worldwide for over a decade.</p>
+        <span class="home-unit-card__cta">Learn More →</span>
+      </a>
 
-    <a href="/devops/" class="unit-row unit-row--devops">
-      <span class="unit-row__num">02</span>
-      <span class="unit-row__name">DevOps &amp; Cloud</span>
-      <span class="unit-row__tag">CI/CD pipelines, containers, infrastructure as code</span>
-      <span class="unit-row__meta">AWS &nbsp;·&nbsp; GCP &nbsp;·&nbsp; Azure</span>
-      <span class="unit-row__arrow">→</span>
-    </a>
+      <a href="/ai/" class="home-unit-card home-unit-card--ai">
+        <div class="home-unit-card__icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+            <circle cx="18" cy="18" r="5.5" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M18 5v4M18 27v4M5 18h4M27 18h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            <path d="M9.2 9.2l2.8 2.8M24 24l2.8 2.8M9.2 26.8l2.8-2.8M24 12l2.8-2.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h2 class="home-unit-card__title">Applied<br>AI Interactions</h2>
+        <p class="home-unit-card__desc">We are learning, using, and playing in the field. We are users, not experts. We developed with AI Pabawi (Classic Infrastructure Command and Control Interface) and Wlaudio (Web interface to Claude code). We share what we are learning on Claude Code and Kiro.</p>
+        <span class="home-unit-card__cta">Learn More →</span>
+      </a>
 
-    <a href="/ai/" class="unit-row unit-row--ai">
-      <span class="unit-row__num">03</span>
-      <span class="unit-row__name">AI Research</span>
-      <span class="unit-row__tag">LLMs, agentic systems, developer tooling</span>
-      <span class="unit-row__meta">Wlaudio project</span>
-      <span class="unit-row__arrow">→</span>
-    </a>
+      <a href="/media/" class="home-unit-card home-unit-card--media">
+        <div class="home-unit-card__icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+            <rect x="14" y="3" width="8" height="16" rx="4" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M7 18c0 6.1 4.9 11 11 11s11-4.9 11-11" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="18" y1="29" x2="18" y2="34" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            <line x1="12" y1="34" x2="24" y2="34" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h2 class="home-unit-card__title">Technology<br>Podcasts</h2>
+        <p class="home-unit-card__desc">Lab42 supports two podcasts on technology. One in Italian, La Brigata dei Geek Estinti, about AI, retrocomputing, Security, and anything IT related. Another one in English, Abnormal DevOps Iterations, with interviews, presentations, and discussions on various tech topics.</p>
+        <span class="home-unit-card__cta">Learn More →</span>
+      </a>
 
-    <a href="/media/" class="unit-row unit-row--media">
-      <span class="unit-row__num">04</span>
-      <span class="unit-row__name">Media</span>
-      <span class="unit-row__tag">Technology podcasts for practitioners</span>
-      <span class="unit-row__meta">IT &nbsp;·&nbsp; EN &nbsp;·&nbsp; 2 shows</span>
-      <span class="unit-row__arrow">→</span>
-    </a>
-
-  </div>
-</section>
-
-<section class="contact-strip">
-  <div class="container">
-    <span>Work with us —</span>
-    <a href="mailto:info@lab42.it">info@lab42.it</a>
+    </div>
   </div>
 </section>

@@ -55,4 +55,4 @@ permalink: /devops/
 
 We recommend what works for your context, not what's fashionable. Engagements range from architecture reviews to embedded engineering — whatever level you need.
 
-<a href="mailto:info@lab42.it" class="btn btn-primary">Start a conversation</a>
+<a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-primary">Start a conversation</a>

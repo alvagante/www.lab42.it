@@ -10,7 +10,7 @@ permalink: /privacy/
 ## Data Controller
 
 **Lab42 srl**
-Email: [info@lab42.it](mailto:info@lab42.it)
+Contact: [Book a call](https://calendar.app.google/STaVQe2MtVSXfrTR9)
 
 ---
 
@@ -55,7 +55,7 @@ Under GDPR you have the right to:
 - Object to processing based on legitimate interest
 - Lodge a complaint with the Italian data protection authority (**Garante per la protezione dei dati personali** — [www.garanteprivacy.it](https://www.garanteprivacy.it))
 
-To exercise any of these rights, contact us at [info@lab42.it](mailto:info@lab42.it).
+To exercise any of these rights, [book a call](https://calendar.app.google/STaVQe2MtVSXfrTR9) or contact us directly.
 
 ---
 

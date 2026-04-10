@@ -59,4 +59,4 @@ permalink: /puppet/
   </div>
 </div>
 
-<a href="mailto:info@lab42.it" class="btn btn-primary">Contact us about Puppet</a>
+<a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-primary">Contact us about Puppet</a>

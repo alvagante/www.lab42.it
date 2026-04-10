@@ -53,4 +53,4 @@ We may update this policy as the site evolves. The current version is always ava
 
 ---
 
-For any questions, contact us at [info@lab42.it](mailto:info@lab42.it) or see our [Privacy Policy](/privacy/).
+For any questions, [book a call](https://calendar.app.google/STaVQe2MtVSXfrTR9) or see our [Privacy Policy](/privacy/).
