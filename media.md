@@ -66,4 +66,4 @@ We're always looking for guests with a story to tell — unconventional takes, h
   </div>
 </div>
 
-<a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-outline" style="margin-left: 10px;">General enquiries</a>
+<a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-outline" style="margin-left: 10px; color: #fff;">General enquiries</a>

@@ -115,4 +115,4 @@ We offer short, focused consulting sessions for teams adopting AI coding tools. 
 <span class="chip">Vector DBs</span>
 <span class="chip">Kiro</span>
 
-<a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top: 32px;">Talk to us about AI</a>
+<a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top: 32px; color: #fff;">Talk to us about AI</a>
