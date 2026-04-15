@@ -27,6 +27,10 @@ Two shows. Two languages. One rule: no scripts, no sponsors reading, no PR-coach
       <span class="chip">AI</span>
       <span class="chip">Italia</span>
     </div>
+    <div class="podcast-card-links" style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;">
+      <a href="https://www.labrigatadeigeekestinti.com" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px;">Website</a>
+      <a href="https://www.youtube.com/@LaBrigatadeiGeekEstinti" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px;">YouTube</a>
+    </div>
   </div>
 
   <div id="abnormal-devops" class="podcast-card">
@@ -42,6 +46,9 @@ Two shows. Two languages. One rule: no scripts, no sponsors reading, no PR-coach
       <span class="chip">Platform Eng</span>
       <span class="chip">Post-mortems</span>
       <span class="chip">Practitioners</span>
+    </div>
+    <div class="podcast-card-links" style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;">
+      <a href="https://www.youtube.com/@AbnormalDevopsIterations" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px;">YouTube</a>
     </div>
   </div>
 
