@@ -10,6 +10,10 @@ permalink: /privacy/
 ## Data Controller
 
 **Lab42 srl**
+21052 Busto Arsizio VA
+Italy
+VAT ID: IT03677180121
+
 Contact: [Book a call](https://calendar.app.google/STaVQe2MtVSXfrTR9)
 
 ---
@@ -20,7 +24,7 @@ This website is a static site. We do not operate user accounts, contact forms, o
 
 **Navigation data** — Automatically collected by the web server and GitHub Pages infrastructure: IP address, browser type, operating system, referring URL, pages visited, and timestamps. This data is used solely for site operation and security purposes and is not linked to individual users.
 
-**Communications** — If you contact us via email (info@lab42.it), we process the data you provide (name, email address, message content) solely to respond to your request.
+**Communications** — If you contact us via email (info@lab42.it), or the calendar booking page, we process the data you provide (name, email address, message content) solely to respond to your request.
 
 ---
 
