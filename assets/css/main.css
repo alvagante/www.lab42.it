@@ -434,7 +434,7 @@ h1, h2, h3, h4 { color: var(--heading); font-weight: 700; line-height: 1.2; }
    ============================================ */
 .feature-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1px;
   background: var(--border);
   border: 1px solid var(--border);
@@ -522,7 +522,7 @@ h1, h2, h3, h4 { color: var(--heading); font-weight: 700; line-height: 1.2; }
    ============================================ */
 .podcast-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1px;
   background: var(--border);
   border: 1px solid var(--border);
