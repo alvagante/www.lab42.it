@@ -54,7 +54,7 @@ permalink: /puppet/
   <div class="project-highlight-info">
     <div class="project-tag">Community Project</div>
     <h3>example42.com</h3>
-    <p>Open-source Puppet modules, guides, and best practices adopted by organizations worldwide. A Lab42 community resource, running for over a decade.</p>
+    <p>Open-source Puppet modules, guides, and best practices. A Lab42 community resource, running since 2012.</p>
     <a href="https://example42.com" target="_blank" rel="noopener" class="btn btn-outline" style="display:inline-flex;margin-top:16px;">Visit example42.com →</a>
   </div>
 </div>

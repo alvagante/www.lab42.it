@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Media
-subtitle: Technology podcasts for practitioners. Real conversations, no vendor pitches.
+subtitle: Two podcasts. Real conversations. No scripts, no vendor pitches.
 unit: media
 description: Lab42 Media produces technology podcasts — La Brigata dei Geek Estinti (Italian) and Abnormal DevOps Iterations (English).
 permalink: /media/
@@ -20,7 +20,7 @@ Two shows. Two languages. One rule: no scripts, no sponsors reading, no PR-coach
       <span class="podcast-card-type">Cultura &amp; Carriera</span>
     </div>
     <h3>La Brigata dei Geek Estinti</h3>
-    <p>Tecnologia, cultura geek, carriera e vita nell'industria tech. Per chi ha vissuto il boom delle startup, sopravvissuto alla prima era del web, e si chiede ancora cosa stia succedendo con l'AI. Con ironia, nostalgia e qualche sana polemica.</p>
+    <p>Tecnologia, cultura geek, carriera e vita nell'industria tech. Per chi ha vissuto il boom delle startup, sopravvissuto alla prima era del web, e vuole ancora capire cosa sta succedendo con l'AI. Con ironia, nostalgia e qualche sana polemica.</p>
     <div class="podcast-card-tags">
       <span class="chip">Tech culture</span>
       <span class="chip">Carriera</span>
@@ -40,7 +40,7 @@ Two shows. Two languages. One rule: no scripts, no sponsors reading, no PR-coach
       <span class="podcast-card-type">Platform Engineering</span>
     </div>
     <h3>Abnormal DevOps Iterations</h3>
-    <p>For DevOps practitioners who know the theory but live in the messy reality. Stories from the trenches, honest post-mortems, and conversations about what "good" actually looks like in modern platform engineering.</p>
+    <p>For DevOps practitioners who know the theory and live in the messy reality. Stories from the field, honest post-mortems, and straight talk about what actually works in platform engineering.</p>
     <div class="podcast-card-tags">
       <span class="chip">DevOps</span>
       <span class="chip">Platform Eng</span>
@@ -56,12 +56,12 @@ Two shows. Two languages. One rule: no scripts, no sponsors reading, no PR-coach
 
 ## Be a guest
 
-We're always looking for guests with a story to tell — unconventional takes, hard-won experience, things you can't find in the documentation. Post-mortems welcome. Vendor pitches not.
+Looking for guests with something real to say — unconventional takes, hard-won experience, things you wouldn't put in a blog post. Post-mortems welcome. Vendor pitches not.
 
 <div class="feature-grid" style="margin-top: 20px;">
   <div class="feature-card">
     <h3>What we look for</h3>
-    <p>Real experience. Honest opinions. Something you'd only say off the record — said on the record.</p>
+    <p>Real experience. Honest opinions. Something you'd normally only say off the record.</p>
   </div>
   <div class="feature-card">
     <h3>Format</h3>
@@ -69,7 +69,7 @@ We're always looking for guests with a story to tell — unconventional takes, h
   </div>
   <div class="feature-card">
     <h3>Languages</h3>
-    <p>Italian for La Brigata, English for Abnormal DevOps Iterations. Mixed OK if you're interesting enough.</p>
+    <p>Italian for La Brigata, English for Abnormal DevOps Iterations. Mixed works if you're interesting enough.</p>
   </div>
 </div>
 

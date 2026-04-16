@@ -7,7 +7,7 @@ description: example42 is Lab42's infrastructure unit — Puppet consulting, Dev
 permalink: /example42/
 ---
 
-We've been doing infrastructure automation since before it was called Infrastructure as Code. The example42 name comes from our open-source Puppet work — still going, still used.
+Infrastructure automation since before it was called Infrastructure as Code. The example42 name comes from our Puppet open-source work — started in 2012, still active, still used in production.
 
 ## example42.com
 
@@ -15,8 +15,7 @@ We've been doing infrastructure automation since before it was called Infrastruc
   <div class="project-highlight-info">
     <div class="project-tag">Open Source · Since 2012</div>
     <h3>example42.com</h3>
-    <p>Puppet modules, guides, best practices, and tooling — adopted by organizations worldwide. The public face of over a decade of infrastructure automation work.</p>
-    <p>Browse projects, modules, and the full history of what we've built and maintain.</p>
+    <p>Puppet modules, guides, best practices, and tooling. Running since 2012. Browse the projects, modules, and everything we've built and still maintain.</p>
     <a href="https://example42.com" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:16px;">Visit example42.com →</a>
   </div>
 </div>
@@ -26,11 +25,11 @@ We've been doing infrastructure automation since before it was called Infrastruc
 <div class="feature-grid">
   <div class="feature-card">
     <h3>Puppet Consulting</h3>
-    <p>Greenfield deployments, legacy migrations, codebase audits. We architect Puppet environments that scale and survive team turnover.</p>
+    <p>Greenfield deployments, legacy migrations, codebase audits. We build Puppet environments that scale and survive team turnover.</p>
   </div>
   <div class="feature-card">
     <h3>Module Development</h3>
-    <p>Custom modules for your stack — tested, documented, following Puppet best practices. We've written hundreds.</p>
+    <p>Custom modules for your stack — tested, documented, following Puppet best practices. We've written hundreds of them.</p>
   </div>
   <div class="feature-card">
     <h3>CI/CD Pipelines</h3>

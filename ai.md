@@ -1,13 +1,13 @@
 ---
 layout: page
 title: AI experiments
-subtitle: We're infrastructure people who got curious about AI. We try, we test, and we ship things.
+subtitle: Infrastructure people who use AI tools, build with them, and share what they learn.
 unit: ai
 description: "Lab42 AI unit — applied AI development, LLM tooling, and hands-on consulting for Claude Code and Kiro. Active projects: Wlaudio and Pabawi."
 permalink: /ai/
 ---
 
-AI moves fast. We've trying to chase behind, make use of the AI powers and share what we learn. 
+AI moves fast. We use it, build with it, and share what we learn.
 
 ## Wlaudio
 
@@ -15,11 +15,11 @@ AI moves fast. We've trying to chase behind, make use of the AI powers and share
   <div class="wlaudio-feature__header">
     <span class="project-tag">Active Project</span>
     <h3 class="wlaudio-feature__title">Wlaudio</h3>
-    <p class="wlaudio-feature__tagline">A browser interface for Claude Code — no terminal required.</p>
+    <p class="wlaudio-feature__tagline">Web interface for Claude Code — no terminal, no setup friction.</p>
   </div>
   <div class="wlaudio-feature__body">
-    <p>Claude Code is powerful. It's also a CLI that requires setup, context, and comfort with the terminal. Wlaudio removes that barrier — a clean web interface that puts Claude Code's capabilities in front of anyone on your team.</p>
-    <p>It's also how we learn. Every problem we hit building Wlaudio becomes something we understand better.</p>
+    <p>Claude Code requires a terminal, configuration, and comfort with the CLI. Wlaudio puts it behind a web interface — same capabilities, accessible to everyone on your team without setup.</p>
+    <p>Building it is how we learn what's actually happening under the hood.</p>
     <div style="margin-top: 20px;">
       <span class="chip">Claude API</span>
       <span class="chip">Claude Code SDK</span>
@@ -42,11 +42,11 @@ AI moves fast. We've trying to chase behind, make use of the AI powers and share
   <div class="wlaudio-feature__header">
     <span class="project-tag">Active Project</span>
     <h3 class="wlaudio-feature__title">Pabawi</h3>
-    <p class="wlaudio-feature__tagline">A unified web interface for infrastructure management — Puppet, Bolt, Ansible, Proxmox, and AWS in one place.</p>
+    <p class="wlaudio-feature__tagline">One interface for infrastructure management — Puppet, Bolt, Ansible, Proxmox, and AWS.</p>
   </div>
   <div class="wlaudio-feature__body">
-    <p>Infrastructure teams juggle too many tools. Pabawi brings node inventory, remote execution, VM provisioning, and Puppet reports into a single interface — with live streaming output, role-based access, and a full audit trail. Runs entirely on-premises.</p>
-    <p>Built with AI assistance from the ground up. Every architectural decision is something we learned, understood, and own.</p>
+    <p>Infrastructure teams juggle too many consoles. Pabawi consolidates node inventory, remote execution, VM provisioning, and Puppet reports into one interface — live streaming output, role-based access, full audit trail. Runs on-premises.</p>
+    <p>Built with AI from day one. We own every decision in it.</p>
     <div style="margin-top: 20px;">
       <span class="chip">Node.js</span>
       <span class="chip">Docker</span>
@@ -67,14 +67,14 @@ AI moves fast. We've trying to chase behind, make use of the AI powers and share
 
 ## On Request — AI Tooling Consulting
 
-We offer short, focused consulting sessions for teams adopting AI coding tools. No long engagements — just fast, practical help from people who actually use these tools.
+Short, focused sessions for teams adopting AI coding tools. No long engagements — practical help from people who use these tools daily.
 
 <div class="consulting-grid">
 
   <div class="consulting-card consulting-card--featured">
     <span class="consulting-card__badge">On Request</span>
     <div class="consulting-card__title">Claude Code Setup &amp; Support</div>
-    <p class="consulting-card__desc">Get your team productive with Claude Code fast. We cover setup, workflows, project memory, hooks, and the patterns that actually work in production codebases.</p>
+    <p class="consulting-card__desc">Get your team productive with Claude Code. We cover setup, workflows, CLAUDE.md configuration, hooks, and the patterns that hold up in real codebases.</p>
     <ul class="consulting-card__includes">
       <li>Environment setup &amp; authentication</li>
       <li>CLAUDE.md and project memory configuration</li>
@@ -89,7 +89,7 @@ We offer short, focused consulting sessions for teams adopting AI coding tools. 
   <div class="consulting-card consulting-card--featured">
     <span class="consulting-card__badge">On Request</span>
     <div class="consulting-card__title">Kiro Setup &amp; Quick Start</div>
-    <p class="consulting-card__desc">Kiro is AWS's AI-powered IDE. We help teams evaluate it, set it up correctly, and understand where it fits alongside Claude Code and other AI tools in your workflow.</p>
+    <p class="consulting-card__desc">Kiro is AWS's AI-powered IDE. We help teams evaluate it, set it up, and work out where it fits alongside Claude Code and the rest of your toolchain.</p>
     <ul class="consulting-card__includes">
       <li>Installation &amp; AWS configuration</li>
       <li>Specs, hooks, and steering file setup</li>

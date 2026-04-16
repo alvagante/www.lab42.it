@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DevOps & Cloud
-subtitle: End-to-end cloud architecture, CI/CD, and infrastructure as code for engineering teams that ship.
+subtitle: Cloud architecture, CI/CD, and infrastructure as code. For teams that actually ship.
 unit: devops
 description: Lab42 provides DevOps transformation consulting, cloud automation, CI/CD pipeline design, and infrastructure-as-code services.
 permalink: /devops/
@@ -53,6 +53,6 @@ permalink: /devops/
 <span class="chip">Vault</span>
 <span class="chip">Ansible</span>
 
-We recommend what works for your context, not what's fashionable. Engagements range from architecture reviews to embedded engineering — whatever level you need.
+We recommend what works for your context, not what's fashionable. Architecture reviews, embedded engineering, or anything in between.
 
 <a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-primary">Start a conversation</a>
