@@ -289,6 +289,28 @@ h1, h2, h3, h4 { color: var(--heading); font-weight: 700; line-height: 1.2; }
   border-color: var(--text-muted);
 }
 
+.btn-ai {
+  background: #5E35B1;
+  color: #fff;
+  border-color: #5E35B1;
+}
+
+.btn-ai:hover {
+  background: #4A148C;
+  color: #fff;
+}
+
+.btn-media {
+  background: #D84315;
+  color: #fff;
+  border-color: #D84315;
+}
+
+.btn-media:hover {
+  background: #BF360C;
+  color: #fff;
+}
+
 /* ============================================
    Page Hero (inner pages)
    ============================================ */

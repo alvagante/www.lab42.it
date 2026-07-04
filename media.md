@@ -3,7 +3,7 @@ layout: page
 title: Media
 subtitle: Two podcasts. Real conversations. No scripts, no vendor pitches.
 unit: media
-description: Lab42 Media produces technology podcasts — La Brigata dei Geek Estinti (Italian) and Abnormal DevOps Iterations (English) — and Abnormalia, an experimental AI-generated narrative project.
+description: Lab42 Media produces technology podcasts — La Brigata dei Geek Estinti (Italian) and Abnormal DevOps Iterations (English) — plus Abnormalia, an experimental AI-generated narrative project, and Alvagante, a curated AI/security/tech link directory.
 permalink: /media/
 ---
 
@@ -65,7 +65,7 @@ Two shows. Two languages. One rule: no scripts, no sponsors reading, no PR-coach
       <span class="podcast-card-type">Generative Fiction</span>
     </div>
     <h3>Abnormalia</h3>
-    <p>"AI slop with style." Infrastructure components and historical figures narrate their own existence in first person — DAGs, hypervisors, config management tools, Einstein, Kafka. Generative content that owns what it is, aimed straight at the intersection of DevOps culture and experimental writing.</p>
+    <p>"AI slop with style." Experimental website entirely built with Swamp's workflows which create mini sites on different topics with an unique approach: Ixens, intersections of DevOps culture and experimental writing; Iams, autobiographies of historic people.</p>
     <div class="podcast-card-tags">
       <span class="chip">AI-generated</span>
       <span class="chip">Experimental</span>
@@ -76,9 +76,25 @@ Two shows. Two languages. One rule: no scripts, no sponsors reading, no PR-coach
     </div>
   </div>
 
-</div>
+  <div id="alvagante" class="podcast-card">
+    <div class="podcast-card-color" style="background: linear-gradient(90deg, #8B5CF6, #6366F1);"></div>
+    <div class="podcast-card-meta">
+      <span class="lang-badge">English</span>
+      <span class="podcast-card-type">Curated Links</span>
+    </div>
+    <h3>Alvagante</h3>
+    <p>A curated, daily-updated directory of links and news across AI, security, IT, science, and geopolitics. Over a thousand links across 80+ categories, sourced from 100+ feeds — a working reference, not a link farm.</p>
+    <div class="podcast-card-tags">
+      <span class="chip">AI</span>
+      <span class="chip">Security</span>
+      <span class="chip">Curation</span>
+    </div>
+    <div class="podcast-card-links" style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;">
+      <a href="https://alvagante.com" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px;">Website</a>
+    </div>
+  </div>
 
-Curated separately: <a href="/ai/">Alvagante</a>, our AI/security/tech link directory, lives under the AI unit.
+</div>
 
 ## Be a guest
 
@@ -99,4 +115,4 @@ Looking for guests with something real to say — unconventional takes, hard-won
   </div>
 </div>
 
-<a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-outline" style="margin-left: 10px; color: #fff;">General enquiries</a>
+<a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-media" style="margin-left: 10px;">General enquiries</a>

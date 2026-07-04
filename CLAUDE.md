@@ -75,8 +75,8 @@ Unit pages use inline HTML within Markdown for structured elements:
 - `.project-highlight` / `.project-highlight--example42` — featured project blocks
 - `.btn` / `.btn-primary` / `.btn-outline` — CTA buttons
 - `.consulting-grid` / `.consulting-card` / `.consulting-card--featured` — consulting offer cards (ai.md)
-- `.wlaudio-feature` — "Active Project" hero block, reused for Wlaudio, Pabawi, and Alvagante (ai.md)
-- `.podcast-grid` / `.podcast-card` — card grid, used for the two podcasts and the Abnormalia content project (media.md)
+- `.wlaudio-feature` — "Active Project" hero block, reused for Wlaudio and Pabawi (ai.md)
+- `.podcast-grid` / `.podcast-card` — card grid, used for the two podcasts and the Abnormalia/Alvagante content projects (media.md)
 - `.lang-badge` — language indicator badge on podcast/content cards (media.md)
 
 ### Deployment
@@ -85,8 +85,8 @@ Unit pages use inline HTML within Markdown for structured elements:
 
 ### External projects referenced on this site
 
-- **alvagante.com** — curated AI/security/tech link directory; listed as an Active Project on ai.md
-- **abnormalia.com** — experimental AI-generated narrative content; listed on media.md, cross-linked from ai.md
+- **alvagante.com** — curated AI/security/tech link directory; listed on media.md
+- **abnormalia.com** — experimental AI-generated narrative content; listed on media.md
 
 ### Plugins
 

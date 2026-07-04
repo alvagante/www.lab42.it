@@ -3,7 +3,7 @@ layout: page
 title: AI experiments
 subtitle: Infrastructure people who use AI tools, build with them, and share what they learn.
 unit: ai
-description: "Lab42 AI unit — applied AI development, LLM tooling, and hands-on consulting for Claude Code and Kiro. Active projects: Wlaudio, Pabawi, and Alvagante."
+description: "Lab42 AI unit — applied AI development, LLM tooling, and hands-on consulting for Claude Code and Kiro. Active projects: Wlaudio and Pabawi."
 permalink: /ai/
 ---
 
@@ -65,29 +65,6 @@ AI moves fast. We use it, build with it, and share what we learn.
   </div>
 </div>
 
-## Alvagante
-
-<div class="wlaudio-feature">
-  <div class="wlaudio-feature__header">
-    <span class="project-tag">Active Project</span>
-    <h3 class="wlaudio-feature__title">Alvagante</h3>
-    <p class="wlaudio-feature__tagline">A curated, daily-updated directory of links and news across AI, security, IT, science, and geopolitics.</p>
-  </div>
-  <div class="wlaudio-feature__body">
-    <p>Over a thousand links across 80+ categories, sourced from 100+ feeds — a working reference, not a link farm. Annotated with the same candid, practitioner's take we bring to everything else.</p>
-    <p>Also home to <a href="https://abnormalia.com" target="_blank" rel="noopener">Abnormalia</a>, our experiment in AI-generated narrative content — see <a href="/media/#abnormalia">Media</a>.</p>
-    <div style="margin-top: 20px;">
-      <span class="chip">AI</span>
-      <span class="chip">Security</span>
-      <span class="chip">Technology</span>
-      <span class="chip">Curation</span>
-    </div>
-    <div style="margin-top: 16px;">
-      <a href="https://alvagante.com" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px; color: #fff;">Visit alvagante.com</a>
-    </div>
-  </div>
-</div>
-
 ## On Request — AI Tooling Consulting
 
 Short, focused sessions for teams adopting AI coding tools. No long engagements — practical help from people who use these tools daily.
@@ -138,4 +115,4 @@ Short, focused sessions for teams adopting AI coding tools. No long engagements 
 <span class="chip">Vector DBs</span>
 <span class="chip">Kiro</span>
 
-<a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top: 32px; color: #fff;">Talk to us about AI</a>
+<a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-ai" style="margin-top: 32px;">Talk to us about AI</a>
