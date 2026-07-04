@@ -6,28 +6,107 @@ home: true
 ---
 
 <section class="home-hero">
+  <div class="home-hero__glow home-hero__glow--infra" aria-hidden="true"></div>
+  <div class="home-hero__glow home-hero__glow--ai" aria-hidden="true"></div>
+  <div class="home-hero__glow home-hero__glow--media" aria-hidden="true"></div>
   <div class="container">
     <div class="home-hero__inner">
       <div class="home-hero__text">
-        <p class="home-hero__eyebrow">Lab42 &nbsp;·&nbsp; Italy &nbsp;·&nbsp; Independent &nbsp;·&nbsp; Since 1996</p>
-        <h1 class="home-hero__title">Infrastructure.<br>AI.<br>Media.</h1>
+        <p class="home-hero__eyebrow" data-fx="1">Lab42 &nbsp;·&nbsp; Italy &nbsp;·&nbsp; Independent &nbsp;·&nbsp; Since 1996</p>
+        <h1 class="home-hero__title">
+          <span class="hw hw--infra" data-fx="2">Infrastructure.</span><br>
+          <span class="hw hw--ai" data-fx="3">AI.</span><br>
+          <span class="hw hw--media" data-fx="4">Media.</span>
+        </h1>
+        <p class="home-hero__sub" data-fx="5">Independent research &amp; consulting from Italy. We automate infrastructure, build with AI, and talk about both — since before it was cool.</p>
+        <div class="home-hero__cta" data-fx="6">
+          <a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-primary">Book a call</a>
+          <a href="#units" class="btn btn-outline">Explore the units</a>
+        </div>
       </div>
-      <div class="home-hero__visual" aria-hidden="true">
-        <div class="hero-blobs">
-          <div class="hero-blob hero-blob--infra"></div>
-          <div class="hero-blob hero-blob--ai"></div>
-          <div class="hero-blob hero-blob--media"></div>
+      <div class="home-hero__visual" data-fx="4" aria-hidden="true">
+        <div class="hero-term">
+          <div class="hero-term__bar">
+            <span class="hero-term__dot hero-term__dot--r"></span>
+            <span class="hero-term__dot hero-term__dot--y"></span>
+            <span class="hero-term__dot hero-term__dot--g"></span>
+            <span class="hero-term__name">lab42 — status</span>
+          </div>
+          <div class="hero-term__body">
+            <p class="hero-term__line"><span class="hero-term__prompt">$</span> lab42 --status</p>
+            <p class="hero-term__line"><span class="hero-term__key hero-term__key--infra">● infra</span><span>puppet · devops · cloud · example42</span></p>
+            <p class="hero-term__line"><span class="hero-term__key hero-term__key--ai">● ai</span><span>wlaudio · pabawi · claude code</span></p>
+            <p class="hero-term__line"><span class="hero-term__key hero-term__key--media">● media</span><span>2 podcasts · experiments</span></p>
+            <p class="hero-term__line hero-term__line--dim">uptime: since 1996 · location: italy</p>
+            <p class="hero-term__line hero-term__line--dim">vendor_lock_in: <span class="hero-term__ok">none</span></p>
+            <p class="hero-term__line"><span class="hero-term__prompt">$</span>&nbsp;<span class="hero-term__cursor"></span></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="home-units">
+<div class="home-ticker" aria-hidden="true">
+  <div class="home-ticker__track">
+    <div class="home-ticker__group">
+      <span>Puppet</span><i class="tick-dot tick-dot--infra"></i>
+      <span>DevOps</span><i class="tick-dot tick-dot--infra"></i>
+      <span>Cloud Automation</span><i class="tick-dot tick-dot--infra"></i>
+      <span>Infrastructure as Code</span><i class="tick-dot tick-dot--ai"></i>
+      <span>Claude Code</span><i class="tick-dot tick-dot--ai"></i>
+      <span>Agentic AI</span><i class="tick-dot tick-dot--ai"></i>
+      <span>Open Source</span><i class="tick-dot tick-dot--media"></i>
+      <span>Podcasts</span><i class="tick-dot tick-dot--media"></i>
+      <span>Tech Media</span><i class="tick-dot tick-dot--media"></i>
+    </div>
+    <div class="home-ticker__group">
+      <span>Puppet</span><i class="tick-dot tick-dot--infra"></i>
+      <span>DevOps</span><i class="tick-dot tick-dot--infra"></i>
+      <span>Cloud Automation</span><i class="tick-dot tick-dot--infra"></i>
+      <span>Infrastructure as Code</span><i class="tick-dot tick-dot--ai"></i>
+      <span>Claude Code</span><i class="tick-dot tick-dot--ai"></i>
+      <span>Agentic AI</span><i class="tick-dot tick-dot--ai"></i>
+      <span>Open Source</span><i class="tick-dot tick-dot--media"></i>
+      <span>Podcasts</span><i class="tick-dot tick-dot--media"></i>
+      <span>Tech Media</span><i class="tick-dot tick-dot--media"></i>
+    </div>
+  </div>
+</div>
+
+<section class="home-stats">
   <div class="container">
+    <div class="home-stats__grid">
+      <div class="home-stat">
+        <span class="home-stat__value">1996</span>
+        <span class="home-stat__label">Independent since</span>
+      </div>
+      <div class="home-stat">
+        <span class="home-stat__value home-stat__value--infra">3</span>
+        <span class="home-stat__label">Business units</span>
+      </div>
+      <div class="home-stat">
+        <span class="home-stat__value home-stat__value--media">2</span>
+        <span class="home-stat__label">Podcasts, IT &amp; EN</span>
+      </div>
+      <div class="home-stat">
+        <span class="home-stat__value home-stat__value--ai">0</span>
+        <span class="home-stat__label">Vendor lock-ins</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-units" id="units">
+  <div class="container">
+    <div class="home-section-head">
+      <p class="home-section-head__eyebrow">What we do</p>
+      <h2 class="home-section-head__title">Three units, one lab.</h2>
+    </div>
     <div class="home-unit-grid">
 
       <a href="/example42/" class="home-unit-card home-unit-card--infra">
+        <span class="home-unit-card__num">01</span>
         <div class="home-unit-card__icon">
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
             <rect x="3" y="6" width="30" height="9" rx="2" stroke="currentColor" stroke-width="1.6"/>
@@ -38,12 +117,19 @@ home: true
             <line x1="7" y1="24.5" x2="10" y2="24.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
           </svg>
         </div>
-        <h2 class="home-unit-card__title">Infrastructure<br>&amp; DevOps</h2>
+        <h3 class="home-unit-card__title">Infrastructure<br>&amp; DevOps</h3>
         <p class="home-unit-card__desc">Puppet consulting, DevOps, cloud automation, training. We built and maintain the example42 open-source projects. Been at this since before it was called Infrastructure as Code.</p>
-        <span class="home-unit-card__cta">Learn More →</span>
+        <div class="home-unit-card__tags">
+          <span class="home-unit-card__tag">Puppet</span>
+          <span class="home-unit-card__tag">DevOps</span>
+          <span class="home-unit-card__tag">Cloud</span>
+          <span class="home-unit-card__tag">Training</span>
+        </div>
+        <span class="home-unit-card__cta">Learn more <span class="home-unit-card__arrow">→</span></span>
       </a>
 
       <a href="/ai/" class="home-unit-card home-unit-card--ai">
+        <span class="home-unit-card__num">02</span>
         <div class="home-unit-card__icon">
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
             <circle cx="18" cy="18" r="5.5" stroke="currentColor" stroke-width="1.6"/>
@@ -51,12 +137,18 @@ home: true
             <path d="M9.2 9.2l2.8 2.8M24 24l2.8 2.8M9.2 26.8l2.8-2.8M24 12l2.8-2.8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
           </svg>
         </div>
-        <h2 class="home-unit-card__title">Applied<br>AI Interactions</h2>
+        <h3 class="home-unit-card__title">Applied<br>AI Interactions</h3>
         <p class="home-unit-card__desc">We use AI tools, build with them, and share what we learn. Active projects: Wlaudio (web interface for Claude Code) and Pabawi (unified infrastructure management). We consult on Claude Code and Kiro adoption.</p>
-        <span class="home-unit-card__cta">Learn More →</span>
+        <div class="home-unit-card__tags">
+          <span class="home-unit-card__tag">Claude Code</span>
+          <span class="home-unit-card__tag">Wlaudio</span>
+          <span class="home-unit-card__tag">Pabawi</span>
+        </div>
+        <span class="home-unit-card__cta">Learn more <span class="home-unit-card__arrow">→</span></span>
       </a>
 
       <a href="/media/" class="home-unit-card home-unit-card--media">
+        <span class="home-unit-card__num">03</span>
         <div class="home-unit-card__icon">
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
             <rect x="14" y="3" width="8" height="16" rx="4" stroke="currentColor" stroke-width="1.6"/>
@@ -65,11 +157,78 @@ home: true
             <line x1="12" y1="34" x2="24" y2="34" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
           </svg>
         </div>
-        <h2 class="home-unit-card__title">Technology<br>Podcasts</h2>
-        <p class="home-unit-card__desc">Two podcasts. La Brigata dei Geek Estinti in Italian — tech, culture, and the industry. Abnormal DevOps Iterations in English — interviews and real-world DevOps stories. Plus Abnormalia, our AI-generated narrative experiment, and Alvagante, our curated AI/security/tech link directory. No scripts, no vendor pitches.</p>
-        <span class="home-unit-card__cta">Learn More →</span>
+        <h3 class="home-unit-card__title">Technology<br>Podcasts</h3>
+        <p class="home-unit-card__desc">La Brigata dei Geek Estinti in Italian — tech, culture, and the industry. Abnormal DevOps Iterations in English — interviews and real-world DevOps stories. Plus Abnormalia and Alvagante. No scripts, no vendor pitches.</p>
+        <div class="home-unit-card__tags">
+          <span class="home-unit-card__tag">Podcast IT</span>
+          <span class="home-unit-card__tag">Podcast EN</span>
+          <span class="home-unit-card__tag">Experiments</span>
+        </div>
+        <span class="home-unit-card__cta">Learn more <span class="home-unit-card__arrow">→</span></span>
       </a>
 
+    </div>
+  </div>
+</section>
+
+<section class="home-projects">
+  <div class="container">
+    <div class="home-section-head">
+      <p class="home-section-head__eyebrow">Output</p>
+      <h2 class="home-section-head__title">Selected projects.</h2>
+    </div>
+    <div class="home-project-grid">
+
+      <a href="https://example42.com" target="_blank" rel="noopener" class="home-project home-project--infra">
+        <span class="home-project__tag">Open Source</span>
+        <span class="home-project__name">example42.com <span class="home-project__ext">↗</span></span>
+        <span class="home-project__desc">Puppet modules, tools, and community — two decades of open-source infrastructure code.</span>
+      </a>
+
+      <a href="https://pabawi.example42.com" target="_blank" rel="noopener" class="home-project home-project--ai">
+        <span class="home-project__tag">AI × Infra</span>
+        <span class="home-project__name">Pabawi <span class="home-project__ext">↗</span></span>
+        <span class="home-project__desc">One interface for Puppet, Bolt, Ansible, Proxmox, and AWS. Built with AI from day one.</span>
+      </a>
+
+      <a href="/ai/#wlaudio" class="home-project home-project--ai">
+        <span class="home-project__tag">AI Tooling</span>
+        <span class="home-project__name">Wlaudio <span class="home-project__ext">→</span></span>
+        <span class="home-project__desc">Web interface for Claude Code — same capabilities, no terminal, no setup friction.</span>
+      </a>
+
+      <a href="https://labrigatadeigeekestinti.com" target="_blank" rel="noopener" class="home-project home-project--media">
+        <span class="home-project__tag">Podcast · IT</span>
+        <span class="home-project__name">La Brigata dei Geek Estinti <span class="home-project__ext">↗</span></span>
+        <span class="home-project__desc">Tech, culture, and the industry — in Italian, without filters.</span>
+      </a>
+
+      <a href="https://abnormalia.com" target="_blank" rel="noopener" class="home-project home-project--media">
+        <span class="home-project__tag">Experiment</span>
+        <span class="home-project__name">Abnormalia <span class="home-project__ext">↗</span></span>
+        <span class="home-project__desc">Experimental AI-generated narrative content — where the machines tell the stories.</span>
+      </a>
+
+      <a href="https://alvagante.com" target="_blank" rel="noopener" class="home-project home-project--media">
+        <span class="home-project__tag">Directory</span>
+        <span class="home-project__name">Alvagante <span class="home-project__ext">↗</span></span>
+        <span class="home-project__desc">Curated links on AI, security, and tech — signal, hand-picked from the noise.</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="home-cta">
+  <div class="container">
+    <div class="home-cta__panel">
+      <p class="home-cta__eyebrow">Get in touch</p>
+      <h2 class="home-cta__title">Infrastructure problem?<br>AI question? Let's talk.</h2>
+      <p class="home-cta__sub">Small team, senior people. Short advisory calls or long-term embedded work — no fixed packages, no vendor pitch.</p>
+      <div class="home-cta__actions">
+        <a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-primary">Book a call</a>
+        <a href="/about/" class="btn btn-outline">About Lab42</a>
+      </div>
     </div>
   </div>
 </section>
