@@ -3,7 +3,7 @@ layout: page
 title: AI experiments
 subtitle: Infrastructure people who use AI tools, build with them, and share what they learn.
 unit: ai
-description: "Lab42 AI unit — applied AI development, LLM tooling, and hands-on consulting for Claude Code and Kiro. Active projects: Wlaudio and Pabawi."
+description: "Lab42 AI unit — applied AI development, LLM tooling, and hands-on consulting for Claude Code and Kiro. Active projects: Wlaudio, Pabawi, and Alvagante."
 permalink: /ai/
 ---
 
@@ -61,6 +61,29 @@ AI moves fast. We use it, build with it, and share what we learn.
         <svg class="github-link__icon" width="15" height="15" viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
         example42/pabawi
       </a>
+    </div>
+  </div>
+</div>
+
+## Alvagante
+
+<div class="wlaudio-feature">
+  <div class="wlaudio-feature__header">
+    <span class="project-tag">Active Project</span>
+    <h3 class="wlaudio-feature__title">Alvagante</h3>
+    <p class="wlaudio-feature__tagline">A curated, daily-updated directory of links and news across AI, security, IT, science, and geopolitics.</p>
+  </div>
+  <div class="wlaudio-feature__body">
+    <p>Over a thousand links across 80+ categories, sourced from 100+ feeds — a working reference, not a link farm. Annotated with the same candid, practitioner's take we bring to everything else.</p>
+    <p>Also home to <a href="https://abnormalia.com" target="_blank" rel="noopener">Abnormalia</a>, our experiment in AI-generated narrative content — see <a href="/media/#abnormalia">Media</a>.</p>
+    <div style="margin-top: 20px;">
+      <span class="chip">AI</span>
+      <span class="chip">Security</span>
+      <span class="chip">Technology</span>
+      <span class="chip">Curation</span>
+    </div>
+    <div style="margin-top: 16px;">
+      <a href="https://alvagante.com" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px; color: #fff;">Visit alvagante.com</a>
     </div>
   </div>
 </div>

@@ -24,6 +24,19 @@ bundle exec jekyll serve --drafts
 
 There is no linter or test suite configured.
 
+### Testing without local Ruby/bundler
+
+If `bundle`/`jekyll` aren't installed on the host, build via the official Docker image instead of installing gems locally:
+
+```bash
+docker run --rm -v "$PWD":/srv/jekyll -w /srv/jekyll jekyll/jekyll:4.2.2 jekyll build
+
+# or to serve with live reload:
+docker run --rm -v "$PWD":/srv/jekyll -w /srv/jekyll -p 4000:4000 jekyll/jekyll:4.2.2 jekyll serve --livereload --host 0.0.0.0
+```
+
+Remove `_site/` and `.jekyll-cache/` afterward — they're build artifacts, not checked in.
+
 ## Architecture
 
 ### Layouts and includes
@@ -62,13 +75,18 @@ Unit pages use inline HTML within Markdown for structured elements:
 - `.project-highlight` / `.project-highlight--example42` — featured project blocks
 - `.btn` / `.btn-primary` / `.btn-outline` — CTA buttons
 - `.consulting-grid` / `.consulting-card` / `.consulting-card--featured` — consulting offer cards (ai.md)
-- `.wlaudio-feature` — hero block for the Wlaudio project (ai.md)
-- `.podcast-grid` / `.podcast-card` — podcast show cards (media.md)
-- `.lang-badge` — language indicator badge on podcast cards (media.md)
+- `.wlaudio-feature` — "Active Project" hero block, reused for Wlaudio, Pabawi, and Alvagante (ai.md)
+- `.podcast-grid` / `.podcast-card` — card grid, used for the two podcasts and the Abnormalia content project (media.md)
+- `.lang-badge` — language indicator badge on podcast/content cards (media.md)
 
 ### Deployment
 
 `.github/workflows/jekyll.yml` builds with `JEKYLL_ENV=production` and deploys to GitHub Pages. Deploys only trigger from the `main` branch.
+
+### External projects referenced on this site
+
+- **alvagante.com** — curated AI/security/tech link directory; listed as an Active Project on ai.md
+- **abnormalia.com** — experimental AI-generated narrative content; listed on media.md, cross-linked from ai.md
 
 ### Plugins
 

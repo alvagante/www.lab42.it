@@ -3,7 +3,7 @@ layout: page
 title: Media
 subtitle: Two podcasts. Real conversations. No scripts, no vendor pitches.
 unit: media
-description: Lab42 Media produces technology podcasts — La Brigata dei Geek Estinti (Italian) and Abnormal DevOps Iterations (English).
+description: Lab42 Media produces technology podcasts — La Brigata dei Geek Estinti (Italian) and Abnormal DevOps Iterations (English) — and Abnormalia, an experimental AI-generated narrative project.
 permalink: /media/
 ---
 
@@ -53,6 +53,32 @@ Two shows. Two languages. One rule: no scripts, no sponsors reading, no PR-coach
   </div>
 
 </div>
+
+## Also from Lab42 Media
+
+<div class="podcast-grid">
+
+  <div id="abnormalia" class="podcast-card">
+    <div class="podcast-card-color" style="background: linear-gradient(90deg, #EF4444, #8B5CF6);"></div>
+    <div class="podcast-card-meta">
+      <span class="lang-badge">English</span>
+      <span class="podcast-card-type">Generative Fiction</span>
+    </div>
+    <h3>Abnormalia</h3>
+    <p>"AI slop with style." Infrastructure components and historical figures narrate their own existence in first person — DAGs, hypervisors, config management tools, Einstein, Kafka. Generative content that owns what it is, aimed straight at the intersection of DevOps culture and experimental writing.</p>
+    <div class="podcast-card-tags">
+      <span class="chip">AI-generated</span>
+      <span class="chip">Experimental</span>
+      <span class="chip">DevOps culture</span>
+    </div>
+    <div class="podcast-card-links" style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;">
+      <a href="https://abnormalia.com" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px;">Website</a>
+    </div>
+  </div>
+
+</div>
+
+Curated separately: <a href="/ai/">Alvagante</a>, our AI/security/tech link directory, lives under the AI unit.
 
 ## Be a guest
 
