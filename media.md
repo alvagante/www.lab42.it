@@ -54,7 +54,7 @@ Two shows. Two languages. One rule: no scripts, no sponsors reading, no PR-coach
 
 </div>
 
-## Also from Lab42 Media
+## Web sites
 
 <div class="podcast-grid">
 
