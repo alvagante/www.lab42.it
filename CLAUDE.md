@@ -75,7 +75,7 @@ Unit pages use inline HTML within Markdown for structured elements:
 - `.project-highlight` / `.project-highlight--example42` — featured project blocks
 - `.btn` / `.btn-primary` / `.btn-outline` — CTA buttons
 - `.consulting-grid` / `.consulting-card` / `.consulting-card--featured` — consulting offer cards (ai.md)
-- `.wlaudio-feature` — "Active Project" hero block, reused for Wlaudio and Pabawi (ai.md)
+- `.wlaudio-feature` — "Active Project" hero block, reused for Wlaudio, Pabawi, and AgentsPulse (ai.md)
 - `.podcast-grid` / `.podcast-card` — card grid, used for the two podcasts and the Abnormalia/Alvagante content projects (media.md)
 - `.lang-badge` — language indicator badge on podcast/content cards (media.md)
 
