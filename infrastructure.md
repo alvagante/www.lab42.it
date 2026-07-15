@@ -1,22 +1,33 @@
 ---
 layout: page
-title: example42
+title: Infrastructure
 subtitle: Infrastructure automation and DevOps consulting, rooted in a decade of open-source Puppet work.
-unit: example42
-description: example42 is Lab42's infrastructure unit — Puppet consulting, DevOps pipelines, cloud infrastructure, and the open-source community at example42.com.
-permalink: /example42/
+unit: infrastructure
+description: Lab42's infrastructure unit — Puppet consulting, DevOps pipelines, cloud infrastructure, AI-driven infra automation, Pabawi, and the open-source community at example42.com.
+permalink: /infrastructure/
 ---
 
 Infrastructure automation since before it was called Infrastructure as Code. The example42 name comes from our Puppet open-source work — started in 2012, still active, still used in production.
 
 ## example42.com
 
-<div class="project-highlight project-highlight--example42">
+<div class="project-highlight project-highlight--infrastructure">
   <div class="project-highlight-info">
     <div class="project-tag">Open Source · Since 2012</div>
     <h3>example42.com</h3>
     <p>Puppet modules, guides, best practices, and tooling. Running since 2012. Browse the projects, modules, and everything we've built and still maintain.</p>
     <a href="https://example42.com" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:16px;">Visit example42.com →</a>
+  </div>
+</div>
+
+## Pabawi
+
+<div class="project-highlight project-highlight--infrastructure">
+  <div class="project-highlight-info">
+    <div class="project-tag">Active Project</div>
+    <h3>Pabawi</h3>
+    <p>One interface for Puppet, Bolt, Ansible, Proxmox, and AWS — node inventory, remote execution, VM provisioning, and Puppet reports in one place. Built with AI from day one, runs on-premises.</p>
+    <a href="https://pabawi.example42.com" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:16px;">Visit pabawi.example42.com →</a>
   </div>
 </div>
 
@@ -47,6 +58,14 @@ Infrastructure automation since before it was called Infrastructure as Code. The
     <h3>Training &amp; Support</h3>
     <p>Hands-on workshops and ongoing advisory for teams running Puppet and DevOps toolchains at scale.</p>
   </div>
+  <div class="feature-card">
+    <h3>Pabawi Support</h3>
+    <p>Setup, plugin development, and on-prem deployment support for Pabawi — the unified console for Puppet, Bolt, Ansible, Proxmox, and AWS.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Infrastructure AI Automation</h3>
+    <p>AI-driven automation for infrastructure operations, built with Swamp (<a href="https://swamp.club" target="_blank" rel="noopener">swamp.club</a>) and other agentic tooling. We design workflows that let AI safely operate infra you actually trust.</p>
+  </div>
 </div>
 
 ## Stack
@@ -67,5 +86,7 @@ Infrastructure automation since before it was called Infrastructure as Code. The
 <span class="chip">Azure</span>
 <span class="chip">Ruby</span>
 <span class="chip">Python</span>
+<span class="chip">Pabawi</span>
+<span class="chip">Swamp</span>
 
 <a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:32px;">Get in touch</a>

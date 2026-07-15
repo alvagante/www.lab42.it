@@ -2,7 +2,7 @@
 
 ## Overview
 
-Corporate website for **Lab42 srl**, an independent Italian research and consulting company founded by Alessandro Franceschi. The site presents four business units: Infrastructure/DevOps (example42), Applied AI, and Technology Media (podcasts).
+Corporate website for **Lab42 srl**, an independent Italian research and consulting company founded by Alessandro Franceschi. The site presents four business units: Infrastructure/DevOps, Applied AI, and Technology Media (podcasts).
 
 Built with **Jekyll 4.3**, deployed to **GitHub Pages** via GitHub Actions on push to `main`.
 
@@ -33,13 +33,13 @@ This is a purely static site — no backend, no database, no JS framework. Jekyl
 | File | Purpose |
 |---|---|
 | `_layouts/default.html` | Base HTML shell. Loads Google Fonts (Inter, JetBrains Mono), includes header/footer, injects `assets/css/main.css` + `assets/js/main.js`. Applies `class="unit-{{ page.unit }}"` to `<body>` for per-unit theming. |
-| `_layouts/page.html` | Extends `default`. Used by all unit pages (example42, puppet, devops, ai, media, about). |
+| `_layouts/page.html` | Extends `default`. Used by all unit pages (infrastructure, puppet, devops, ai, media, about). |
 
 ### Includes
 
 | File | Purpose |
 |---|---|
-| `_includes/header.html` | Site navigation. Hardcoded nav links (not driven by `site.nav` in `_config.yml`). Four entries: example42, AI, Media, About. |
+| `_includes/header.html` | Site navigation. Hardcoded nav links (not driven by `site.nav` in `_config.yml`). Four entries: Infrastructure, AI, Media, About. |
 | `_includes/footer.html` | Site-wide footer. |
 
 ### Pages
@@ -47,7 +47,7 @@ This is a purely static site — no backend, no database, no JS framework. Jekyl
 | File | Route | Unit | Description |
 |---|---|---|---|
 | `index.html` | `/` | — | Homepage: hero, unit cards grid |
-| `example42.md` | `/example42/` | example42 | Infrastructure unit: Puppet consulting, DevOps, open-source community |
+| `infrastructure.md` | `/infrastructure/` | infrastructure | Infrastructure unit: Puppet consulting, DevOps, AI infra automation, Pabawi, open-source community |
 | `puppet.md` | `/puppet/` | puppet | Puppet consulting services |
 | `devops.md` | `/devops/` | devops | DevOps & cloud consulting services |
 | `ai.md` | `/ai/` | ai | AI experiments: Wlaudio, Pabawi, consulting |
@@ -70,14 +70,14 @@ Pages set `unit:` in front matter. The default layout applies `class="unit-{{ pa
 
 | Unit | Accent Color |
 |---|---|
-| example42, puppet | `#0097A7` |
+| infrastructure, puppet | `#0097A7` |
 | devops | `#0288D1` |
 | ai | `#7C4DFF` |
 | media | `#E64A19` |
 
 ### Navigation
 
-Header nav: **example42**, **AI**, **Media**, **About**. The example42 link is marked active when the URL contains `/example42`, `/puppet`, or `/devops`.
+Header nav: **Infrastructure**, **AI**, **Media**, **About**. The Infrastructure link is marked active when the URL contains `/infrastructure`, `/puppet`, or `/devops`.
 
 ### Content Patterns (CSS classes used in Markdown pages)
 

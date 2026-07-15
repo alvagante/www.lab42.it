@@ -904,18 +904,18 @@ h1, h2, h3, h4 { color: var(--heading); font-weight: 700; line-height: 1.2; }
   transform: translateX(6px);
 }
 
-.unit-card--example42 { --card-color: var(--puppet); }
-.unit-card--ai        { --card-color: var(--ai); }
-.unit-card--media     { --card-color: var(--media); }
+.unit-card--infrastructure { --card-color: var(--puppet); }
+.unit-card--ai             { --card-color: var(--ai); }
+.unit-card--media          { --card-color: var(--media); }
 
 /* ============================================
-   example42 unit theming
+   infrastructure unit theming
    ============================================ */
-.unit-example42 {}
-.hero-example42 h1     { color: var(--puppet); }
-.nav-example42.active  { color: var(--puppet); }
+.unit-infrastructure {}
+.hero-infrastructure h1     { color: var(--puppet); }
+.nav-infrastructure.active  { color: var(--puppet); }
 
-.project-highlight--example42 {
+.project-highlight--infrastructure {
   border-left-color: var(--puppet);
 }
 

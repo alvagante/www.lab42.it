@@ -42,27 +42,27 @@ Remove `_site/` and `.jekyll-cache/` afterward — they're build artifacts, not 
 ### Layouts and includes
 
 - `_layouts/default.html` — base HTML shell; loads Google Fonts (Inter, JetBrains Mono), includes header/footer, and injects `assets/css/main.css` + `assets/js/main.js`
-- `_layouts/page.html` — extends default; used by all unit pages (example42, puppet, devops, ai, media, about)
+- `_layouts/page.html` — extends default; used by all unit pages (infrastructure, puppet, devops, ai, media, about)
 - `_includes/header.html` — hardcoded nav links (not driven by `site.nav` from `_config.yml`)
 - `_includes/footer.html` — site-wide footer
 
 ### Pages and routing
 
 - `index.html` — homepage with hero, stats, unit cards grid, CTA
-- `example42.md` — main infrastructure unit page at `/example42/`; covers Puppet consulting, DevOps, cloud infra, and the example42.com open-source community
-- `puppet.md`, `devops.md` — sub-pages under the example42 unit (nav marks them active under the example42 link)
+- `infrastructure.md` — main infrastructure unit page at `/infrastructure/`; covers Puppet consulting, DevOps, cloud infra, AI-driven infra automation, Pabawi, and the example42.com open-source community
+- `puppet.md`, `devops.md` — sub-pages under the infrastructure unit (nav marks them active under the Infrastructure link)
 - `ai.md`, `media.md`, `about.md` — top-level section pages
 - `404.html` — custom error page
-- Permalinks are set per-page via front matter (e.g. `permalink: /example42/`)
+- Permalinks are set per-page via front matter (e.g. `permalink: /infrastructure/`)
 
 ### Navigation
 
-The header nav has four entries: **example42**, **AI**, **Media**, **About**. The example42 link is marked active when the URL contains `/example42`, `/puppet`, or `/devops`.
+The header nav has four entries: **Infrastructure**, **AI**, **Media**, **About**. The Infrastructure link is marked active when the URL contains `/infrastructure`, `/puppet`, or `/devops`.
 
 ### Per-unit theming
 
-Pages set `unit: example42|puppet|devops|ai|media` in front matter. The default layout applies `class="unit-{{ page.unit }}"` to `<body>`, enabling per-unit color overrides in CSS. Unit accent colors are:
-- example42 (and puppet): `#FF6B00`
+Pages set `unit: infrastructure|puppet|devops|ai|media` in front matter. The default layout applies `class="unit-{{ page.unit }}"` to `<body>`, enabling per-unit color overrides in CSS. Unit accent colors are:
+- infrastructure (and puppet): `#FF6B00`
 - devops: `#0EA5E9`
 - ai: `#8B5CF6`
 - media: `#EF4444`
@@ -72,7 +72,7 @@ Pages set `unit: example42|puppet|devops|ai|media` in front matter. The default 
 Unit pages use inline HTML within Markdown for structured elements:
 - `.feature-grid` / `.feature-card` — service grids
 - `.chip` — technology tags
-- `.project-highlight` / `.project-highlight--example42` — featured project blocks
+- `.project-highlight` / `.project-highlight--infrastructure` — featured project blocks
 - `.btn` / `.btn-primary` / `.btn-outline` — CTA buttons
 - `.consulting-grid` / `.consulting-card` / `.consulting-card--featured` — consulting offer cards (ai.md)
 - `.wlaudio-feature` — "Active Project" hero block, reused for Wlaudio, Pabawi, and AgentsPulse (ai.md)
