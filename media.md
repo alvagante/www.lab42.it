@@ -100,7 +100,7 @@ Two shows. Two languages. One rule: no scripts, no sponsors reading, no PR-coach
       <span class="lang-badge">English</span>
       <span class="podcast-card-type">Education</span>
     </div>
-    <h3>openskills.info</h3>
+    <h3>Openskills</h3>
     <p>"Build fluency across the IT landscape." Concise, source-backed mini-courses across web dev, operating systems, AI/ML, and platform engineering, mapped to 34+ career guides so you can spot the gaps instead of guessing. 227 courses and counting — breadth over single-stack specialization.</p>
     <div class="podcast-card-tags">
       <span class="chip">Education</span>
