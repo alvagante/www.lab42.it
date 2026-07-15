@@ -3,7 +3,7 @@ layout: page
 title: Media
 subtitle: Two podcasts. Real conversations. No scripts, no vendor pitches.
 unit: media
-description: Lab42 Media produces technology podcasts — La Brigata dei Geek Estinti (Italian) and Abnormal DevOps Iterations (English) — plus Abnormalia, an experimental AI-generated narrative project, and Alvagante, a curated AI/security/tech link directory.
+description: Lab42 Media produces technology podcasts — La Brigata dei Geek Estinti (Italian) and Abnormal DevOps Iterations (English) — plus Abnormalia, an experimental AI-generated narrative project, Alvagante, a curated AI/security/tech link directory, and openskills.info, a source-backed IT skills learning platform.
 permalink: /media/
 ---
 
@@ -91,6 +91,24 @@ Two shows. Two languages. One rule: no scripts, no sponsors reading, no PR-coach
     </div>
     <div class="podcast-card-links" style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;">
       <a href="https://alvagante.com" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px;">Website</a>
+    </div>
+  </div>
+
+  <div id="openskills" class="podcast-card">
+    <div class="podcast-card-color" style="background: linear-gradient(90deg, #10B981, #0EA5E9);"></div>
+    <div class="podcast-card-meta">
+      <span class="lang-badge">English</span>
+      <span class="podcast-card-type">Education</span>
+    </div>
+    <h3>openskills.info</h3>
+    <p>"Build fluency across the IT landscape." Concise, source-backed mini-courses across web dev, operating systems, AI/ML, and platform engineering, mapped to 34+ career guides so you can spot the gaps instead of guessing. 227 courses and counting — breadth over single-stack specialization.</p>
+    <div class="podcast-card-tags">
+      <span class="chip">Education</span>
+      <span class="chip">Career Paths</span>
+      <span class="chip">Skills</span>
+    </div>
+    <div class="podcast-card-links" style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;">
+      <a href="https://openskills.info" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px;">Website</a>
     </div>
   </div>
 
