@@ -64,7 +64,7 @@ Infrastructure automation since before it was called Infrastructure as Code. The
   </div>
   <div class="feature-card">
     <h3>Infrastructure AI Automation</h3>
-    <p>AI-driven automation for infrastructure operations, built with Swamp (<a href="https://swamp.club" target="_blank" rel="noopener">swamp.club</a>) and other agentic tooling. We design workflows that let AI safely operate infra you actually trust.</p>
+    <p>AI-driven automation for infrastructure operations, built with Swamp and other agentic tooling. We design workflows that let AI safely operate infra you actually trust.</p>
   </div>
 </div>
 
