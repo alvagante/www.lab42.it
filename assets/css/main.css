@@ -727,7 +727,7 @@ h1, h2, h3, h4 { color: var(--heading); font-weight: 700; line-height: 1.2; }
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
   gap: 40px;
   margin-bottom: 40px;
 }
