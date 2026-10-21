@@ -756,6 +756,8 @@ h1, h2, h3, h4 { color: var(--heading); font-weight: 700; line-height: 1.2; }
 
 .footer-col ul li { margin-bottom: 8px; }
 
+.footer-col ul + h4 { margin-top: 24px; }
+
 .footer-col ul li a {
   font-size: 0.85rem;
   color: var(--text-muted);
