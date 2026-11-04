@@ -3,11 +3,23 @@ layout: page
 title: AI experiments
 subtitle: Infrastructure people who use AI tools, build with them, and share what they learn.
 unit: ai
-description: "Lab42 AI unit — applied AI development, LLM tooling, and hands-on consulting for Claude Code and Kiro. Active projects: Wlaudio, Pabawi, and AgentsPulse."
+description: "Lab42 AI unit — applied AI development, LLM tooling, and hands-on consulting for Claude Code and Kiro. Active projects: Smack, Wlaudio, Pabawi, AgentsPulse, and loopq."
 permalink: /ai/
 ---
 
 AI moves fast. We use it, build with it, and share what we learn.
+
+## Smack
+
+<div class="smack-preview">
+  <div class="smack-preview__copy">
+    <span class="smack-eyebrow">Native macOS app · Open source</span>
+    <h3>Your Mac. Nothing hidden.</h3>
+    <p>Live performance, process inspections, Docker and AI agents. Meet Smack.</p>
+    <a class="smack-preview__link" href="{{ '/smack/' | relative_url }}">Explore Smack <span aria-hidden="true">↗</span></a>
+  </div>
+  <img src="{{ '/assets/images/smack/summary.webp' | relative_url }}" alt="Smack dashboard with live Mac performance and health metrics" width="1976" height="1248" loading="lazy">
+</div>
 
 ## Wlaudio
 

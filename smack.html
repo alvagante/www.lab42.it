@@ -1,0 +1,70 @@
+---
+layout: default
+title: Smack
+unit: ai
+permalink: /smack/
+description: "Your Mac. Nothing hidden. Smack brings live performance, process inspections, Docker and AI agents to your notch and menu bar. Native, local and open source."
+image: /assets/images/smack/summary.webp
+---
+
+<div class="smack-page">
+  <section class="smack-hero container" aria-labelledby="smack-title">
+    <div class="smack-product"><svg width="38" height="38" viewBox="0 0 38 38" fill="none" aria-hidden="true"><rect x="1" y="1" width="36" height="36" rx="10" fill="#15251c" stroke="#a3ee64"/><path d="M6 20h7l3-9 5 17 3-10h8" stroke="#a3ee64" stroke-width="2" stroke-linejoin="round"/></svg> Smack <span>THE MACINTERNALS YOU NEED</span></div>
+    <p class="smack-eyebrow">For the Mac you want to understand.</p>
+    <h1 id="smack-title">Your Mac.<br><span>Nothing hidden.</span></h1>
+    <div class="smack-hero__bottom">
+      <p>See what’s running. Find what’s slowing you down.<br>Take control, straight from your notch or menu bar.</p>
+      <div class="smack-actions">
+        <a class="btn smack-button" href="https://github.com/alvagante/smack/releases/latest">Get Smack <span aria-hidden="true">↗</span></a>
+        <a class="smack-text-link" href="https://github.com/alvagante/smack">View source <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <p class="smack-requirements">macOS 15+ · Apple silicon · Free &amp; open source</p>
+    <figure class="smack-dashboard">
+      <a href="{{ '/assets/images/smack/summary.webp' | relative_url }}" aria-label="View full-size Smack dashboard"><img src="{{ '/assets/images/smack/summary.webp' | relative_url }}" width="1976" height="1248" alt="Smack Summary: CPU, GPU, memory, network, disk activity and system health in one dashboard" fetchpriority="high"></a>
+      <figcaption><span class="smack-live" aria-hidden="true"></span> Your whole Mac, at a glance.</figcaption>
+    </figure>
+  </section>
+
+  <div class="smack-principles container"><span>Native macOS</span><span>Monitoring stays local</span><span>MIT licensed</span></div>
+
+  <section class="smack-features container" aria-labelledby="smack-features-title">
+    <div class="smack-section-heading"><p class="smack-eyebrow">From overview to evidence</p><h2 id="smack-features-title">Follow the signal.</h2><p>Click any screenshot for a closer look.</p></div>
+    <div class="smack-grid">
+      <article class="smack-card">
+        <div class="smack-card__copy"><span class="smack-index">01 / PERFORMANCE</span><h3>Find the bottleneck.</h3><p>Live resource graphs. Per-process detail. Persistent history.</p></div>
+        <a href="{{ '/assets/images/smack/cpu.webp' | relative_url }}" aria-label="View full-size CPU performance screenshot"><img src="{{ '/assets/images/smack/cpu.webp' | relative_url }}" alt="CPU view with live usage, core activity and processes ranked by consumption" width="1976" height="1248" loading="lazy"></a>
+      </article>
+      <article class="smack-card">
+        <div class="smack-card__copy"><span class="smack-index">02 / INVESTIGATION</span><h3>Go inside any app.</h3><p>Processes, open files, connections, logs and diagnostics.</p></div>
+        <a href="{{ '/assets/images/smack/application.webp' | relative_url }}" aria-label="View full-size application inspection screenshot"><img src="{{ '/assets/images/smack/application.webp' | relative_url }}" alt="Safari inspection with resource graphs and navigation to files, threads, logs and security" width="1976" height="1248" loading="lazy"></a>
+      </article>
+      <article class="smack-card smack-card--agents">
+        <div class="smack-card__copy"><span class="smack-index">03 / AI AGENTS</span><h3>Know your agents.</h3><p>Discover local coding agents. Browse skills, instructions, sessions and MCP servers.</p></div>
+        <a href="{{ '/assets/images/smack/ai-agents.webp' | relative_url }}" aria-label="View full-size AI agents screenshot"><img src="{{ '/assets/images/smack/ai-agents.webp' | relative_url }}" alt="AI agent explorer showing a live session and Claude Code configuration, skills and MCP servers" width="1284" height="812" loading="lazy"></a>
+      </article>
+      <article class="smack-card">
+        <div class="smack-card__copy"><span class="smack-index">04 / DEVELOPER TOOLS</span><h3>Your stack, in sight.</h3><p>Docker containers, ports and networks. Homebrew packages. Language runtimes.</p></div>
+        <a href="{{ '/assets/images/smack/docker.webp' | relative_url }}" aria-label="View full-size Docker screenshot"><img src="{{ '/assets/images/smack/docker.webp' | relative_url }}" alt="Docker containers grouped by project with live resource metrics, ports and controls" width="1284" height="812" loading="lazy"></a>
+      </article>
+    </div>
+  </section>
+
+  <section class="smack-brochure container" aria-labelledby="smack-brochure-title">
+    <a class="smack-brochure__link" href="{{ '/assets/images/smack/Smack-1.0.0-Brochure.pdf' | relative_url }}">
+      <img src="{{ '/assets/images/smack/brochure-cover.webp' | relative_url }}" alt="Smack brochure cover featuring the app dashboard and performance views" width="842" height="595" loading="lazy">
+      <div>
+        <p class="smack-eyebrow">The illustrated tour</p>
+        <h2 id="smack-brochure-title">Explore the brochure.</h2>
+        <p>Smack 1.0.0 · PDF · 6.3 MB</p>
+        <span>Open brochure <span aria-hidden="true">↗</span></span>
+      </div>
+    </a>
+  </section>
+
+  <section class="smack-install container" aria-labelledby="smack-install-title">
+    <div><p class="smack-eyebrow">Meet your Mac, properly.</p><h2 id="smack-install-title">Less guessing.<br>More knowing.</h2><a class="btn smack-button" href="https://github.com/alvagante/smack/releases/latest">Download Smack <span aria-hidden="true">↗</span></a></div>
+    <div class="smack-terminal"><span>INSTALL WITH HOMEBREW</span><pre><code>brew tap alvagante/tap
+brew install --cask smack</code></pre><a href="https://github.com/alvagante/smack#install-from-a-github-release">Installation &amp; first-launch guide <span aria-hidden="true">↗</span></a></div>
+  </section>
+</div>
