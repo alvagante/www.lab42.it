@@ -1,9 +1,12 @@
 ---
 layout: page
+prose: true
+eyebrow: Site policies
+headline: A small site.
+accent: A light footprint.
 title: Cookie Policy
-subtitle: Information about cookies and similar technologies used on this site.
-icon: "🍪"
-description: Cookie policy for www.lab42.it — what cookies are used and how to manage them.
+subtitle: The cookies and third-party services behind these pages.
+description: "Cookie policy for www.lab42.it: what cookies are used and how to manage them."
 permalink: /cookies/
 ---
 

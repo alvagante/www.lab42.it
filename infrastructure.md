@@ -1,92 +1,36 @@
 ---
-layout: page
-title: Infrastructure
-subtitle: Infrastructure automation and DevOps consulting, rooted in a decade of open-source Puppet work.
-unit: infrastructure
-description: Lab42's infrastructure unit — Puppet consulting, DevOps pipelines, cloud infrastructure, AI-driven infra automation, Pabawi, and the open-source community at example42.com.
-permalink: /infrastructure/
+layout: "page"
+title: "Infrastructure"
+headline: "Reliable systems."
+accent: "Fewer surprises."
+subtitle: "Puppet, DevOps and cloud automation. From the first audit to the systems you run every day."
+eyebrow: "01 / Infrastructure"
+description: "Puppet, DevOps and cloud automation. From the first audit to the systems you run every day."
+permalink: "/infrastructure/"
+hero_cta: true
+unit: "infrastructure"
 ---
 
-Infrastructure automation since before it was called Infrastructure as Code. The example42 name comes from our Puppet open-source work — started in 2012, still active, still used in production.
-
-## example42.com
-
-<div class="project-highlight project-highlight--infrastructure">
-  <div class="project-highlight-info">
-    <div class="project-tag">Open Source · Since 2012</div>
-    <h3>example42.com</h3>
-    <p>Puppet modules, guides, best practices, and tooling. Running since 2012. Browse the projects, modules, and everything we've built and still maintain.</p>
-    <a href="https://example42.com" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:16px;">Visit example42.com →</a>
-  </div>
+<section class="section">
+<div class="section-head"><div><p class="eyebrow">01 / Engineering & consulting</p><h2>Make operations simpler.</h2></div></div>
+<div class="card-grid">
+<article class="card"><p class="eyebrow">01 / Puppet</p><h3>Configuration you can trust.</h3><p>Deployments, migrations, custom modules and audits. Hands-on training and support for your team.</p></article>
+<article class="card"><p class="eyebrow">02 / Delivery</p><h3>Ship with confidence.</h3><p>CI/CD pipelines with testing and repeatable releases. GitHub Actions, GitLab CI or Jenkins.</p></article>
+<article class="card"><p class="eyebrow">03 / Cloud</p><h3>Build it to run.</h3><p>AWS, GCP and Azure. Reproducible infrastructure with Terraform, Pulumi or CloudFormation.</p></article>
+<article class="card"><p class="eyebrow">04 / Containers</p><h3>Keep your platform manageable.</h3><p>Docker, Kubernetes and Helm. From development environments to production operations.</p></article>
+<article class="card"><p class="eyebrow">05 / Pabawi</p><h3>Bring the tools together.</h3><p>On-premises setup, plugin development and support for your unified infrastructure console.</p></article>
+<article class="card"><p class="eyebrow">06 / Applied AI</p><h3>Automate the next step.</h3><p>Infrastructure workflows with Swamp and agentic tooling. Designed around your operational controls.</p></article>
 </div>
+<div class="actions section-actions"><a class="text-link" href="{{ '/puppet/' | relative_url }}">Puppet consulting <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ '/devops/' | relative_url }}">DevOps &amp; Cloud <span aria-hidden="true">↗</span></a></div>
+</section>
 
-## Pabawi
-
-<div class="project-highlight project-highlight--infrastructure">
-  <div class="project-highlight-info">
-    <div class="project-tag">Active Project</div>
-    <h3>Pabawi</h3>
-    <p>One interface for Puppet, Bolt, Ansible, Proxmox, and AWS — node inventory, remote execution, VM provisioning, and Puppet reports in one place. Built with AI from day one, runs on-premises.</p>
-    <a href="https://pabawi.example42.com" target="_blank" rel="noopener" class="btn btn-outline" style="margin-top:16px;">Visit pabawi.example42.com →</a>
-  </div>
+<section class="section">
+<div class="section-head"><div><p class="eyebrow">02 / Built here</p><h2>Tools behind the work.</h2></div></div>
+<div class="feature-panel">
+  <div><p class="eyebrow">Pabawi / Open source</p><h3>One console.<br>Your whole infrastructure.</h3><p>Inventory, remote execution, VM provisioning and Puppet reports. Runs on your infrastructure.</p><a class="text-link" href="https://pabawi.example42.com" target="_blank" rel="noopener">Explore Pabawi <span aria-hidden="true">↗</span></a></div>
+  <div class="flow" aria-label="Pabawi integrations"><div><strong>Configure</strong><span>Puppet · Ansible</span></div><div><strong>Execute</strong><span>Bolt · Live output</span></div><div><strong>Provision</strong><span>Proxmox · AWS</span></div></div>
 </div>
+<div class="link-list"><a class="link-row" href="https://example42.com" target="_blank" rel="noopener"><span class="eyebrow">Since 2012</span><h3>example42</h3><p>Open-source Puppet modules, guides and tools. Built in the field.</p><span class="link-arrow" aria-hidden="true">↗</span></a></div>
+</section>
 
-## Services
-
-<div class="feature-grid">
-  <div class="feature-card">
-    <h3>Puppet Consulting</h3>
-    <p>Greenfield deployments, legacy migrations, codebase audits. We build Puppet environments that scale and survive team turnover.</p>
-  </div>
-  <div class="feature-card">
-    <h3>Module Development</h3>
-    <p>Custom modules for your stack — tested, documented, following Puppet best practices. We've written hundreds of them.</p>
-  </div>
-  <div class="feature-card">
-    <h3>CI/CD Pipelines</h3>
-    <p>Automated delivery from code to production. GitHub Actions, GitLab CI, Jenkins — whatever your team runs.</p>
-  </div>
-  <div class="feature-card">
-    <h3>Cloud Infrastructure</h3>
-    <p>AWS, GCP, Azure. Terraform, Pulumi, CloudFormation. Infrastructure that's reproducible and auditable.</p>
-  </div>
-  <div class="feature-card">
-    <h3>Container Platforms</h3>
-    <p>Kubernetes, Docker, Helm. From local dev parity to production-grade orchestration.</p>
-  </div>
-  <div class="feature-card">
-    <h3>Training &amp; Support</h3>
-    <p>Hands-on workshops and ongoing advisory for teams running Puppet and DevOps toolchains at scale.</p>
-  </div>
-  <div class="feature-card">
-    <h3>Pabawi Support</h3>
-    <p>Setup, plugin development, and on-prem deployment support for Pabawi — the unified console for Puppet, Bolt, Ansible, Proxmox, and AWS.</p>
-  </div>
-  <div class="feature-card">
-    <h3>Infrastructure AI Automation</h3>
-    <p>AI-driven automation for infrastructure operations, built with Swamp and other agentic tooling. We design workflows that let AI safely operate infra you actually trust.</p>
-  </div>
-</div>
-
-## Stack
-
-<span class="chip">Puppet</span>
-<span class="chip">Puppet Enterprise</span>
-<span class="chip">Hiera</span>
-<span class="chip">r10k</span>
-<span class="chip">Foreman</span>
-<span class="chip">Bolt</span>
-<span class="chip">Terraform</span>
-<span class="chip">Ansible</span>
-<span class="chip">Kubernetes</span>
-<span class="chip">Docker</span>
-<span class="chip">GitHub Actions</span>
-<span class="chip">AWS</span>
-<span class="chip">GCP</span>
-<span class="chip">Azure</span>
-<span class="chip">Ruby</span>
-<span class="chip">Python</span>
-<span class="chip">Pabawi</span>
-<span class="chip">Swamp</span>
-
-<a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:32px;">Get in touch</a>
+{% include contact.html title="What's getting in your way?" text="An audit, a migration or hands-on support. Let's work out the next step." %}

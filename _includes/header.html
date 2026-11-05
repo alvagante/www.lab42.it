@@ -1,21 +1,17 @@
 <header class="site-header">
-  <div class="container">
-    <div class="header-inner">
-      <a href="{{ '/' | relative_url }}" class="site-logo">
-        <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Lab42" class="site-logo__img" width="130" height="65">
-      </a>
-
-      <nav class="site-nav" id="site-nav">
-        <a href="{{ '/about/' | relative_url }}" class="nav-link {% if page.url contains '/about' %}active{% endif %}">About</a>
-        <a href="{{ '/infrastructure/' | relative_url }}" class="nav-link nav-infrastructure {% if page.url contains '/infrastructure' or page.url contains '/puppet' or page.url contains '/devops' %}active{% endif %}">Infrastructure</a>
-        <a href="{{ '/ai/' | relative_url }}" class="nav-link nav-ai {% if page.url contains '/ai' or page.url contains '/smack' %}active{% endif %}">AI</a>
-        <a href="{{ '/media/' | relative_url }}" class="nav-link nav-media {% if page.url contains '/media' %}active{% endif %}">Media</a>
-        <a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="nav-link">Contact</a>
-      </nav>
-
-      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
+  <div class="container header-inner">
+    <a href="{{ '/' | relative_url }}" class="site-logo" aria-label="Lab42 home">
+      <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Lab42" class="site-logo__img" width="130" height="65">
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="{{ '/infrastructure/' | relative_url }}" class="nav-link {% if page.url contains '/infrastructure' or page.url contains '/puppet' or page.url contains '/devops' %}active{% endif %}" {% if page.url contains '/infrastructure' or page.url contains '/puppet' or page.url contains '/devops' %}aria-current="page"{% endif %}>Infrastructure</a>
+      <a href="{{ '/ai/' | relative_url }}" class="nav-link {% if page.url contains '/ai' or page.url contains '/smack' %}active{% endif %}" {% if page.url contains '/ai' or page.url contains '/smack' %}aria-current="page"{% endif %}>AI</a>
+      <a href="{{ '/media/' | relative_url }}" class="nav-link {% if page.url contains '/media' %}active{% endif %}" {% if page.url contains '/media' %}aria-current="page"{% endif %}>Media</a>
+      <a href="{{ '/about/' | relative_url }}" class="nav-link {% if page.url contains '/about' %}active{% endif %}" {% if page.url contains '/about' %}aria-current="page"{% endif %}>About</a>
+      <a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="nav-link nav-contact">Let's talk <span aria-hidden="true">↗</span></a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="site-nav" aria-expanded="false">
+      <span></span><span></span>
+    </button>
   </div>
 </header>

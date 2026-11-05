@@ -1,0 +1,8 @@
+<section class="contact-panel" aria-labelledby="contact-title">
+  <div>
+    <p class="eyebrow">{{ include.eyebrow | default: 'Work with Lab42' }}</p>
+    <h2 id="contact-title">{{ include.title | default: 'Bring the hard problem.' }}</h2>
+    <p>{{ include.text | default: 'A focused call or hands-on engineering. Start with what you need.' }}</p>
+  </div>
+  <a class="btn btn-primary" href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener">{{ include.button | default: 'Book a call' }} <span aria-hidden="true">↗</span></a>
+</section>

@@ -1,136 +1,43 @@
 ---
 layout: page
 title: Media
-subtitle: Two podcasts. Real conversations. No scripts, no vendor pitches.
+headline: Good stories.
+accent: Real experience.
+subtitle: "Technology, the people building it and the questions worth asking. In Italian and English."
+eyebrow: 03 / Media
 unit: media
-description: Lab42 Media produces technology podcasts — La Brigata dei Geek Estinti (Italian) and Abnormal DevOps Iterations (English) — plus Abnormalia, an experimental AI-generated narrative project, Alvagante, a curated AI/security/tech link directory, and openskills.info, a source-backed IT skills learning platform.
+description: "Two technology podcasts, independent websites and a learning platform. La Brigata dei Geek Estinti, Abnormal DevOps Iterations, Abnormalia, Alvagante and Openskills."
 permalink: /media/
+note: Two podcasts. Open conversations. Independent voices.
 ---
 
-Two shows. Two languages. One rule: no scripts, no sponsors reading, no PR-coached guests.
-
-## Shows
-
-<div class="podcast-grid">
-
-  <div id="la-brigata" class="podcast-card">
-    <div class="podcast-card-color" style="background: linear-gradient(90deg, #EF4444, #F97316);"></div>
-    <div class="podcast-card-meta">
-      <span class="lang-badge">Italiano</span>
-      <span class="podcast-card-type">Cultura &amp; Carriera</span>
-    </div>
-    <h3>La Brigata dei Geek Estinti</h3>
-    <p>Tecnologia, cultura geek, carriera e vita nell'industria tech. Per chi ha vissuto il boom delle startup, sopravvissuto alla prima era del web, e vuole ancora capire cosa sta succedendo con l'AI. Con ironia, nostalgia e qualche sana polemica.</p>
-    <div class="podcast-card-tags">
-      <span class="chip">Tech culture</span>
-      <span class="chip">Carriera</span>
-      <span class="chip">AI</span>
-      <span class="chip">Italia</span>
-    </div>
-    <div class="podcast-card-links" style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;">
-      <a href="https://www.labrigatadeigeekestinti.com" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px;">Website</a>
-      <a href="https://www.youtube.com/@LaBrigatadeiGeekEstinti" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px;">YouTube</a>
-    </div>
+<section class="section" aria-labelledby="shows-title">
+  <div class="section-head"><div><p class="eyebrow">01 / On air</p><h2 id="shows-title">Listen in.</h2></div><p>Tech culture and engineering. Stories from people who've been there.</p></div>
+  <div class="card-grid">
+    <article class="card card--peach" id="la-brigata">
+      <p class="eyebrow">Italiano / Tech &amp; cultura</p>
+      <div class="card-art">{% include lab-symbol.html kind="media" %}</div>
+      <h3>La Brigata<br>dei Geek Estinti</h3>
+      <p>Tecnologia, cultura geek e vita nel settore. Esperienza, ironia e domande sull'AI.</p>
+      <div class="actions section-actions"><a class="text-link" href="https://www.labrigatadeigeekestinti.com" target="_blank" rel="noopener">Website <span aria-hidden="true">↗</span></a><a class="text-link" href="https://www.youtube.com/@LaBrigatadeiGeekEstinti" target="_blank" rel="noopener">YouTube <span aria-hidden="true">↗</span></a></div>
+    </article>
+    <article class="card card--purple" id="abnormal-devops">
+      <p class="eyebrow">English / Platform engineering</p>
+      <div class="card-art">{% include lab-symbol.html kind="media" %}</div>
+      <h3>Abnormal<br>DevOps Iterations</h3>
+      <p>DevOps in the real world. Field stories, honest post-mortems and lessons worth keeping.</p>
+      <a class="text-link" href="https://www.youtube.com/@AbnormalDevopsIterations" target="_blank" rel="noopener">Watch on YouTube <span aria-hidden="true">↗</span></a>
+    </article>
   </div>
+</section>
 
-  <div id="abnormal-devops" class="podcast-card">
-    <div class="podcast-card-color" style="background: linear-gradient(90deg, #0EA5E9, #6366F1);"></div>
-    <div class="podcast-card-meta">
-      <span class="lang-badge">English</span>
-      <span class="podcast-card-type">Platform Engineering</span>
-    </div>
-    <h3>Abnormal DevOps Iterations</h3>
-    <p>For DevOps practitioners who know the theory and live in the messy reality. Stories from the field, honest post-mortems, and straight talk about what actually works in platform engineering.</p>
-    <div class="podcast-card-tags">
-      <span class="chip">DevOps</span>
-      <span class="chip">Platform Eng</span>
-      <span class="chip">Post-mortems</span>
-      <span class="chip">Practitioners</span>
-    </div>
-    <div class="podcast-card-links" style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;">
-      <a href="https://www.youtube.com/@AbnormalDevopsIterations" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px;">YouTube</a>
-    </div>
+<section class="section" aria-labelledby="websites-title">
+  <div class="section-head"><div><p class="eyebrow">02 / Beyond the microphone</p><h2 id="websites-title">More ways to explore.</h2></div></div>
+  <div class="card-grid card-grid--three">
+    <article class="card" id="abnormalia"><p class="eyebrow">Generative fiction</p><h3>Abnormalia</h3><p>AI slop with style. Experimental stories and imagined autobiographies, built with Swamp workflows.</p><a class="text-link" href="https://abnormalia.com" target="_blank" rel="noopener">Explore Abnormalia <span aria-hidden="true">↗</span></a></article>
+    <article class="card" id="alvagante"><p class="eyebrow">Curated links</p><h3>Alvagante</h3><p>AI, security, science and geopolitics. A daily directory for the curious.</p><a class="text-link" href="https://alvagante.com" target="_blank" rel="noopener">Browse Alvagante <span aria-hidden="true">↗</span></a></article>
+    <article class="card" id="openskills"><p class="eyebrow">Learning</p><h3>Openskills</h3><p>Short, source-backed IT courses. Career guides to help you spot the gaps.</p><a class="text-link" href="https://openskills.info" target="_blank" rel="noopener">Start exploring <span aria-hidden="true">↗</span></a></article>
   </div>
+</section>
 
-</div>
-
-## Web sites
-
-<div class="podcast-grid">
-
-  <div id="abnormalia" class="podcast-card">
-    <div class="podcast-card-color" style="background: linear-gradient(90deg, #EF4444, #8B5CF6);"></div>
-    <div class="podcast-card-meta">
-      <span class="lang-badge">English</span>
-      <span class="podcast-card-type">Generative Fiction</span>
-    </div>
-    <h3>Abnormalia</h3>
-    <p>"AI slop with style." Experimental website entirely built with Swamp's workflows which create mini sites on different topics with an unique approach: Ixens, intersections of DevOps culture and experimental writing; Iams, autobiographies of historic people.</p>
-    <div class="podcast-card-tags">
-      <span class="chip">AI-generated</span>
-      <span class="chip">Experimental</span>
-      <span class="chip">DevOps culture</span>
-    </div>
-    <div class="podcast-card-links" style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;">
-      <a href="https://abnormalia.com" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px;">Website</a>
-    </div>
-  </div>
-
-  <div id="alvagante" class="podcast-card">
-    <div class="podcast-card-color" style="background: linear-gradient(90deg, #8B5CF6, #6366F1);"></div>
-    <div class="podcast-card-meta">
-      <span class="lang-badge">English</span>
-      <span class="podcast-card-type">Curated Links</span>
-    </div>
-    <h3>Alvagante</h3>
-    <p>A curated, daily-updated directory of links and news across AI, security, IT, science, and geopolitics. Over a thousand links across 80+ categories, sourced from 100+ feeds — a working reference, not a link farm.</p>
-    <div class="podcast-card-tags">
-      <span class="chip">AI</span>
-      <span class="chip">Security</span>
-      <span class="chip">Curation</span>
-    </div>
-    <div class="podcast-card-links" style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;">
-      <a href="https://alvagante.com" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px;">Website</a>
-    </div>
-  </div>
-
-  <div id="openskills" class="podcast-card">
-    <div class="podcast-card-color" style="background: linear-gradient(90deg, #10B981, #0EA5E9);"></div>
-    <div class="podcast-card-meta">
-      <span class="lang-badge">English</span>
-      <span class="podcast-card-type">Education</span>
-    </div>
-    <h3>Openskills</h3>
-    <p>"Build fluency across the IT landscape." Concise, source-backed mini-courses across web dev, operating systems, AI/ML, and platform engineering, mapped to 34+ career guides so you can spot the gaps instead of guessing. 227 courses and counting — breadth over single-stack specialization.</p>
-    <div class="podcast-card-tags">
-      <span class="chip">Education</span>
-      <span class="chip">Career Paths</span>
-      <span class="chip">Skills</span>
-    </div>
-    <div class="podcast-card-links" style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;">
-      <a href="https://openskills.info" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem; padding: 6px 14px;">Website</a>
-    </div>
-  </div>
-
-</div>
-
-## Be a guest
-
-Looking for guests with something real to say — unconventional takes, hard-won experience, things you wouldn't put in a blog post. Post-mortems welcome. Vendor pitches not.
-
-<div class="feature-grid" style="margin-top: 20px;">
-  <div class="feature-card">
-    <h3>What we look for</h3>
-    <p>Real experience. Honest opinions. Something you'd normally only say off the record.</p>
-  </div>
-  <div class="feature-card">
-    <h3>Format</h3>
-    <p>Remote, unscripted, 45–60 minutes. We handle editing and production. You just show up.</p>
-  </div>
-  <div class="feature-card">
-    <h3>Languages</h3>
-    <p>Italian for La Brigata, English for Abnormal DevOps Iterations. Mixed works if you're interesting enough.</p>
-  </div>
-</div>
-
-<a href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener" class="btn btn-media" style="margin-left: 10px;">General enquiries</a>
+{% include contact.html eyebrow="03 / Be our guest" title="Got a story worth telling?" text="Remote. Unscripted. 45-60 minutes. Italian or English. Bring your experience; we handle production." button="Join the conversation" %}
