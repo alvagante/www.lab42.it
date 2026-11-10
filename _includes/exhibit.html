@@ -1,0 +1,27 @@
+{%- comment -%}
+  One product or site from _data/projects.yml, with its screenshot.
+  Params: id (required), layout ("card" default, or "panel"), heading ("h3" default), eager (true to skip lazy loading).
+{%- endcomment -%}
+{%- assign p = site.data.projects | where: "id", include.id | first -%}
+{%- assign tag = include.heading | default: "h3" -%}
+{%- if p.internal -%}{%- assign href = p.url | relative_url -%}{%- else -%}{%- assign href = p.url -%}{%- endif -%}
+<article class="exhibit exhibit--{{ include.layout | default: 'card' }} field-{{ p.field }}" id="{{ p.id }}">
+  <a class="exhibit__figure" href="{{ href }}"{% unless p.internal %} target="_blank" rel="noopener"{% endunless %} tabindex="-1" aria-hidden="true">
+    <img src="{{ p.image | relative_url }}" alt="{{ p.alt }}" width="{{ p.width }}" height="{{ p.height }}"{% unless include.eager %} loading="lazy"{% endunless %}>
+  </a>
+  <div class="exhibit__body">
+    <p class="eyebrow">№ {{ p.number }} / {{ p.field_label }} / {{ p.kind }}</p>
+    <{{ tag }} class="exhibit__name">{{ p.name }}</{{ tag }}>
+    <p>{{ p.summary }}</p>
+    {%- if include.layout == "panel" %}
+    <p class="exhibit__detail">{{ p.detail }}</p>
+    {%- endif %}
+    <p class="exhibit__status"><span class="dot" aria-hidden="true"></span>{{ p.status }}</p>
+    <div class="exhibit__links">
+      <a class="text-link" href="{{ href }}"{% unless p.internal %} target="_blank" rel="noopener"{% endunless %}>{{ p.link_label }} <span aria-hidden="true">{% if p.internal %}→{% else %}↗{% endif %}</span></a>
+      {%- if p.source and include.layout == "panel" %}
+      <a class="text-link text-link--quiet" href="{{ p.source }}" target="_blank" rel="noopener">{{ p.source_label | default: "Source on GitHub" }} <span aria-hidden="true">↗</span></a>
+      {%- endif %}
+    </div>
+  </div>
+</article>

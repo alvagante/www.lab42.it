@@ -1,13 +1,22 @@
 title: Lab42
-tagline: Independent Research & Consulting
+tagline: Independent research lab
 description: >-
-  Independent engineering since 1996. Infrastructure automation, applied AI,
-  open-source software and technology podcasts.
+  Independent research lab in Italy, since 1996. Infrastructure automation and
+  Puppet consulting, AI agents, open-source software, podcasts and websites.
 baseurl: ""
 url: "https://www.lab42.it"
 
 author:
   name: Lab42 srl
+
+lang: en
+logo: /assets/images/apple-touch-icon.png
+social:
+  name: Lab42
+  links:
+    - https://github.com/example42
+    - https://www.youtube.com/@LaBrigatadeiGeekEstinti
+    - https://www.youtube.com/@AbnormalDevopsIterations
 
 # Build settings
 markdown: kramdown
@@ -29,22 +38,14 @@ exclude:
 
 # Navigation
 nav:
-  - title: Puppet
-    url: /puppet/
-    icon: puppet
-    color: "#FF6B00"
-  - title: DevOps & Cloud
-    url: /devops/
-    icon: devops
-    color: "#0EA5E9"
-  - title: AI Research
+  - title: Infrastructure
+    url: /infrastructure/
+  - title: AI
     url: /ai/
-    icon: ai
-    color: "#8B5CF6"
   - title: Media
     url: /media/
-    icon: media
-    color: "#EF4444"
+  - title: About
+    url: /about/
 
 # Social / Contact
 email: info@lab42.it

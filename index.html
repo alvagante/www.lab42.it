@@ -1,72 +1,75 @@
 ---
 layout: default
-title: Lab42 | Infrastructure, AI & Media
-description: Independent engineering since 1996. Infrastructure automation, applied AI, open-source software and technology podcasts.
+title: Independent research lab for infrastructure, AI and media
+description: Lab42 is an independent research lab in Italy. It explores infrastructure automation, AI agents and media by building software, websites and podcasts. Puppet consulting through example42.
+image: /assets/images/smack/summary.webp
 home: true
 ---
 
-<section class="home-hero container" aria-labelledby="home-title">
-  <p class="eyebrow">Lab42 / Independent research &amp; consulting</p>
-  <h1 id="home-title">Make it work.<span>Make it better.</span></h1>
-  <div class="hero-bottom">
-    <p class="hero-description">Automate infrastructure. Build useful software.<br>Share what we learn along the way.</p>
-    <div class="actions">
-      <a class="btn btn-primary" href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener">Let's talk <span aria-hidden="true">↗</span></a>
-      <a class="text-link" href="#units">Explore the lab <span aria-hidden="true">↓</span></a>
+<section class="home-hero hero-grid" aria-labelledby="home-title">
+  <div class="container">
+    <p class="eyebrow">Lab42 / Independent research lab / Italy, since 1996</p>
+    <h1 id="home-title">We build ideas<span>to see what holds.</span></h1>
+    <div class="hero-bottom">
+      <p class="hero-description">Lab42 explores infrastructure, AI and media. Some experiments stay in the notebook. Others became software, websites, podcasts and a Puppet consulting practice.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#index">See the index <span aria-hidden="true">↓</span></a>
+        <a class="text-link" href="{{ '/about/' | relative_url }}">How the lab works <span aria-hidden="true">→</span></a>
+      </div>
     </div>
+    <dl class="readout">
+      <div><dt>Founded</dt><dd>1996</dd></div>
+      <div><dt>Fields</dt><dd>3</dd></div>
+      <div><dt>In public</dt><dd>7 experiments</dd></div>
+      <div><dt>Default licence</dt><dd>Open source</dd></div>
+    </dl>
   </div>
-  <p class="hero-note">Italy · Independent since 1996 · Open source by conviction</p>
 </section>
 
-<div class="container">
-  <div class="proof-strip"><span><strong>1996</strong> / Lab42 begins</span><span><strong>2012</strong> / example42 begins</span><span><strong>IT + EN</strong> / Two podcasts</span></div>
-</div>
-
 <div class="page-content container">
-  <section class="section" id="units" aria-labelledby="units-title">
-    <div class="section-head"><div><p class="eyebrow">01 / What we do</p><h2 id="units-title">Three fields.<br>One curious lab.</h2></div><p>Hands-on engineering. Independent thinking. Knowledge worth sharing.</p></div>
-    <div class="card-grid card-grid--three">
-      <a class="card card--green" href="{{ '/infrastructure/' | relative_url }}">
-        <p class="eyebrow">Infrastructure</p>
-        <div class="card-art">{% include lab-symbol.html kind="infrastructure" %}</div>
-        <h3>Get your systems<br>under control.</h3>
-        <p>Puppet, DevOps and cloud automation. Built to run. Built to maintain.</p>
-        <span class="text-link">Explore infrastructure <span aria-hidden="true">↗</span></span>
+  <section class="section" id="fields" aria-labelledby="fields-title">
+    <div class="section-head"><div><p class="eyebrow">01 / Fields of study</p><h2 id="fields-title">Three fields. One method.</h2></div><p>Pick a question. Build the smallest thing that answers it. Publish what holds.</p></div>
+    <div class="field-list">
+      <a class="field-row field-infrastructure" href="{{ '/infrastructure/' | relative_url }}">
+        <span class="field-row__index">A</span>
+        <h3>Infrastructure</h3>
+        <p>How systems are kept in a known state. Puppet, automation and classic infrastructure, practised in the field as example42.</p>
+        <span class="field-row__arrow" aria-hidden="true">→</span>
       </a>
-      <a class="card card--purple" href="{{ '/ai/' | relative_url }}">
-        <p class="eyebrow">Applied AI</p>
-        <div class="card-art">{% include lab-symbol.html kind="ai" %}</div>
-        <h3>Put the tools<br>to work.</h3>
-        <p>AI coding workflows, useful applications and practical help for your team.</p>
-        <span class="text-link">Explore AI <span aria-hidden="true">↗</span></span>
+      <a class="field-row field-ai" href="{{ '/ai/' | relative_url }}">
+        <span class="field-row__index">B</span>
+        <h3>AI</h3>
+        <p>What coding agents do when given real tools. Native software built with them, and instruments to watch them work.</p>
+        <span class="field-row__arrow" aria-hidden="true">→</span>
       </a>
-      <a class="card card--peach" href="{{ '/media/' | relative_url }}">
-        <p class="eyebrow">Media</p>
-        <div class="card-art">{% include lab-symbol.html kind="media" %}</div>
-        <h3>Stay curious.<br>Talk about it.</h3>
-        <p>Two podcasts. Independent websites. Tech and the people behind it.</p>
-        <span class="text-link">Explore media <span aria-hidden="true">↗</span></span>
+      <a class="field-row field-media" href="{{ '/media/' | relative_url }}">
+        <span class="field-row__index">C</span>
+        <h3>Media</h3>
+        <p>What happens when the notes are published. Two podcasts, machine-written fiction, a daily digest, a course catalog.</p>
+        <span class="field-row__arrow" aria-hidden="true">→</span>
       </a>
     </div>
   </section>
 
-  <section class="section" aria-labelledby="software-title">
-    <div class="section-head"><div><p class="eyebrow">02 / Made in the lab</p><h2 id="software-title">Ideas you can use.</h2></div><a class="text-link" href="{{ '/ai/' | relative_url }}">All our software <span aria-hidden="true">↗</span></a></div>
-    <div class="feature-panel">
-      <div>
-        <p class="eyebrow">Smack / Native macOS app</p>
-        <h2>Your Mac.<br>Nothing hidden.</h2>
-        <p>Live performance. Deep process inspections. Docker and AI agents, in one place.</p>
-        <a class="text-link" href="{{ '/smack/' | relative_url }}">Meet Smack <span aria-hidden="true">↗</span></a>
-      </div>
-      <a class="feature-panel__visual" href="{{ '/smack/' | relative_url }}" aria-label="Explore Smack"><img src="{{ '/assets/images/smack/summary.webp' | relative_url }}" alt="Smack dashboard with Mac performance and system health" width="1976" height="1248" loading="lazy"></a>
+  <section class="section" id="index" aria-labelledby="index-title">
+    <div class="section-head"><div><p class="eyebrow">02 / Index of experiments</p><h2 id="index-title">What left the lab.</h2></div><p>Seven experiments that run in public. Use them, read them, or argue with them.</p></div>
+    {% include exhibit.html id="smack" layout="panel" %}
+    <div class="exhibit-grid">
+      {% include exhibit.html id="pabawi" %}
+      {% include exhibit.html id="example42" %}
+      {% include exhibit.html id="openskills" %}
+      {% include exhibit.html id="brigata" %}
+      {% include exhibit.html id="abnormalia" %}
+      {% include exhibit.html id="alvagante" %}
     </div>
+  </section>
+
+  <section class="section" id="contact" aria-labelledby="contact-title">
+    <div class="section-head"><div><p class="eyebrow">03 / Correspondence</p><h2 id="contact-title">Three reasons to write.</h2></div></div>
     <div class="link-list">
-      <a class="link-row" href="https://pabawi.example42.com" target="_blank" rel="noopener"><span class="eyebrow">Infrastructure</span><h3>Pabawi</h3><p>Your infrastructure tools. One console.</p><span class="link-arrow" aria-hidden="true">↗</span></a>
-      <a class="link-row" href="https://example42.com" target="_blank" rel="noopener"><span class="eyebrow">Open source</span><h3>example42</h3><p>Puppet modules, tools and guides. Since 2012.</p><span class="link-arrow" aria-hidden="true">↗</span></a>
-      <a class="link-row" href="https://openskills.info" target="_blank" rel="noopener"><span class="eyebrow">Learning</span><h3>Openskills</h3><p>Learn across IT. Find the gaps. Keep going.</p><span class="link-arrow" aria-hidden="true">↗</span></a>
+      <a class="link-row" href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener"><span class="eyebrow">Clients</span><h3>Infrastructure that needs a second opinion.</h3><p>Puppet and DevOps consulting, through example42. Book a call.</p><span class="link-arrow" aria-hidden="true">↗</span></a>
+      <a class="link-row" href="mailto:{{ site.email }}?subject=Lab42%20software"><span class="eyebrow">Users &amp; investors</span><h3>A product to use, or to back.</h3><p>Smack, Pabawi and OpenSkills are in active development. Partners and investors are heard.</p><span class="link-arrow" aria-hidden="true">↗</span></a>
+      <a class="link-row" href="mailto:{{ site.email }}?subject=Podcast%20guest"><span class="eyebrow">Guests</span><h3>Something to say on air.</h3><p>The podcasts take guests. Italian or English, unscripted.</p><span class="link-arrow" aria-hidden="true">↗</span></a>
     </div>
   </section>
-
-  {% include contact.html title="What are you working on?" text="Small team. Senior engineers. A direct conversation about what you need." %}
 </div>
