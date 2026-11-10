@@ -35,6 +35,8 @@ When you visit this site, your browser may connect to third-party services that 
 
 Cloudflare sits between visitors and the site's origin server. It may process your IP address and HTTP request data for security and performance purposes, and may set a `__cf_buid` cookie (technically necessary, used for bot detection). See [Cloudflare's cookie policy](https://www.cloudflare.com/cookie-policy/) for details.
 
+The [Smack page]({{ '/smack/' | relative_url }}) embeds videos hosted on YouTube (Google). Nothing is requested from YouTube until you press play. The player then loads from `youtube-nocookie.com`, and Google may process your IP address and store data in your browser. See [Google's privacy policy](https://policies.google.com/privacy).
+
 ---
 
 ## Managing cookies

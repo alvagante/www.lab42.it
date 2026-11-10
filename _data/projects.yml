@@ -7,14 +7,14 @@
   field: ai
   field_label: AI
   kind: Native macOS app
-  status: Active. Version 1.0.
+  status: Active. Version 1.1.
   url: /smack/
   internal: true
   link_label: Open the Smack page
   source: https://github.com/alvagante/smack
   image: /assets/images/smack/summary.webp
-  width: 1976
-  height: 1248
+  width: 2000
+  height: 1256
   alt: Smack for macOS showing CPU, GPU, memory, network and disk activity in one dashboard
   summary: >-
     A native macOS instrument. It shows what the machine is doing: processes,
