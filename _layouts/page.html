@@ -1,14 +1,16 @@
 ---
 layout: default
 ---
-<section class="page-hero container" aria-labelledby="page-title">
+<section class="page-hero hero-grid" aria-labelledby="page-title">
+  <div class="container">
   <p class="eyebrow">{% if page.parent_url %}<a href="{{ page.parent_url | relative_url }}">{{ page.parent_label }}</a> / {% endif %}{{ page.eyebrow | default: 'Lab42' }}</p>
   <h1 id="page-title">{{ page.headline | default: page.title }}{% if page.accent %}<span>{{ page.accent }}</span>{% endif %}</h1>
   <div class="hero-bottom">
     {% if page.subtitle %}<p class="hero-description">{{ page.subtitle }}</p>{% endif %}
-    {% if page.hero_cta %}<a class="btn btn-primary" href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener">Let's talk <span aria-hidden="true">↗</span></a>{% endif %}
+    {% if page.hero_cta %}<a class="btn btn-primary" href="https://calendar.app.google/STaVQe2MtVSXfrTR9" target="_blank" rel="noopener">Book a call <span aria-hidden="true">↗</span></a>{% endif %}
   </div>
   {% if page.note %}<p class="hero-note">{{ page.note }}</p>{% endif %}
+  </div>
 </section>
 <div class="page-content container{% if page.prose %} prose-content{% endif %}">
   {{ content }}
