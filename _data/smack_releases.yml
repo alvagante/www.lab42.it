@@ -1,0 +1,32 @@
+# Smack release material, rendered on /smack/ (newest first).
+# Add a release at the top. Each one takes any mix of:
+#   videos:    title, text, youtube (video id), poster (local image), alt
+#   materials: title, eyebrow, meta, label, url, image, width, height, alt
+# Video posters are local, so YouTube is contacted only when a video is played.
+
+- version: "1.1.0"
+  title: Agents, on a timeline.
+  videos:
+    - title: Introduction
+      text: What Smack is and what 1.1.0 adds.
+      youtube: LAxwJI7sho4
+      poster: /assets/images/smack/summary.webp
+      alt: Smack Summary dashboard
+    - title: Agents timeline view
+      text: Prompts, answers, thinking, commands and files of an agent session, in time.
+      youtube: 8ptwFJeu3Y4
+      poster: /assets/images/smack/ai-agents.webp
+      alt: Smack AI agents session timeline
+
+- version: "1.0.0"
+  title: The first release.
+  materials:
+    - title: Explore the brochure.
+      eyebrow: The illustrated tour
+      meta: Smack 1.0.0 · PDF · 6.3 MB
+      label: Open brochure
+      url: /assets/images/smack/Smack-1.0.0-Brochure.pdf
+      image: /assets/images/smack/brochure-cover.webp
+      width: 842
+      height: 595
+      alt: Smack brochure cover featuring the app dashboard and performance views

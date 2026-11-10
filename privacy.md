@@ -42,6 +42,8 @@ This website is a static site. We do not operate user accounts, contact forms, o
 
 The site is hosted on **GitHub Pages** (GitHub Inc., USA). GitHub may collect technical data as described in [GitHub's privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
+Videos on the Smack page are hosted on **YouTube** (Google LLC, USA). They load only when you press play, from `youtube-nocookie.com`. See [Google's privacy policy](https://policies.google.com/privacy).
+
 ---
 
 ## Data retention

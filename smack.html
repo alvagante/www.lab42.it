@@ -22,7 +22,7 @@ image: /assets/images/smack/summary.webp
     </div>
     <p class="smack-requirements">macOS 15+ · Apple silicon · Free &amp; open source</p>
     <figure class="smack-dashboard">
-      <a href="{{ '/assets/images/smack/summary.webp' | relative_url }}" aria-label="View full-size Smack dashboard"><img src="{{ '/assets/images/smack/summary.webp' | relative_url }}" width="1976" height="1248" alt="Smack Summary: CPU, GPU, memory, network, disk activity and system health in one dashboard" fetchpriority="high"></a>
+      <a href="{{ '/assets/images/smack/summary.webp' | relative_url }}" aria-label="View full-size Smack dashboard"><img src="{{ '/assets/images/smack/summary.webp' | relative_url }}" width="2000" height="1256" alt="Smack Summary: CPU, GPU, memory, network, disk activity and system health in one dashboard" fetchpriority="high"></a>
       <figcaption><span class="smack-live" aria-hidden="true"></span> Your whole Mac, at a glance.</figcaption>
     </figure>
   </section>
@@ -37,30 +37,61 @@ image: /assets/images/smack/summary.webp
         <a href="{{ '/assets/images/smack/cpu.webp' | relative_url }}" aria-label="View full-size CPU performance screenshot"><img src="{{ '/assets/images/smack/cpu.webp' | relative_url }}" alt="CPU view with live usage, core activity and processes ranked by consumption" width="1976" height="1248" loading="lazy"></a>
       </article>
       <article class="smack-card">
-        <div class="smack-card__copy"><span class="smack-index">02 / INVESTIGATION</span><h3>Go inside any app.</h3><p>Processes, open files, connections, logs and diagnostics.</p></div>
-        <a href="{{ '/assets/images/smack/application.webp' | relative_url }}" aria-label="View full-size application inspection screenshot"><img src="{{ '/assets/images/smack/application.webp' | relative_url }}" alt="Safari inspection with resource graphs and navigation to files, threads, logs and security" width="1976" height="1248" loading="lazy"></a>
+        <div class="smack-card__copy"><span class="smack-index">02 / INVESTIGATION</span><h3>Go inside any app.</h3><p>Every app and background process. Files, ports, logs and diagnostics, one click away.</p></div>
+        <a href="{{ '/assets/images/smack/applications.webp' | relative_url }}" aria-label="View full-size applications screenshot"><img src="{{ '/assets/images/smack/applications.webp' | relative_url }}" alt="Applications view listing running apps with CPU, memory, disk, energy and wakeups per app" width="2000" height="1256" loading="lazy"></a>
       </article>
       <article class="smack-card smack-card--agents">
-        <div class="smack-card__copy"><span class="smack-index">03 / AI AGENTS</span><h3>Know your agents.</h3><p>Discover local coding agents. Browse skills, instructions, sessions and MCP servers.</p></div>
-        <a href="{{ '/assets/images/smack/ai-agents.webp' | relative_url }}" aria-label="View full-size AI agents screenshot"><img src="{{ '/assets/images/smack/ai-agents.webp' | relative_url }}" alt="AI agent explorer showing a live session and Claude Code configuration, skills and MCP servers" width="1284" height="812" loading="lazy"></a>
+        <div class="smack-card__copy"><span class="smack-index">03 / AI AGENTS</span><h3>Know your agents.</h3><p>Replay any session on a timeline: prompts, answers, thinking, commands and files.</p></div>
+        <a href="{{ '/assets/images/smack/ai-agents.webp' | relative_url }}" aria-label="View full-size AI agents screenshot"><img src="{{ '/assets/images/smack/ai-agents.webp' | relative_url }}" alt="AI agents view with a saved OpenCode session on a timeline of prompts, answers, thinking, commands and files" width="2000" height="1256" loading="lazy"></a>
+      </article>
+      <article class="smack-card smack-card--agents">
+        <div class="smack-card__copy"><span class="smack-index">04 / PROJECTS</span><h3>Every repository, accounted for.</h3><p>Git state, dev servers, containers and the agent sessions recorded in each project.</p></div>
+        <a href="{{ '/assets/images/smack/projects.webp' | relative_url }}" aria-label="View full-size project detail screenshot"><img src="{{ '/assets/images/smack/projects.webp' | relative_url }}" alt="Project detail for a repository with its changes, branch, last commit and the agent sessions run in it" width="2000" height="1256" loading="lazy"></a>
       </article>
       <article class="smack-card">
-        <div class="smack-card__copy"><span class="smack-index">04 / DEVELOPER TOOLS</span><h3>Your stack, in sight.</h3><p>Docker containers, ports and networks. Homebrew packages. Language runtimes.</p></div>
+        <div class="smack-card__copy"><span class="smack-index">05 / BASELINES</span><h3>Spot the drift.</h3><p>Snapshot the configuration. Compare it with now. See what was added, removed or changed.</p></div>
+        <a href="{{ '/assets/images/smack/baselines.webp' | relative_url }}" aria-label="View full-size baselines screenshot"><img src="{{ '/assets/images/smack/baselines.webp' | relative_url }}" alt="Baselines view with a drift report of added, removed and changed Homebrew packages, ports, apps and containers" width="2000" height="1256" loading="lazy"></a>
+      </article>
+      <article class="smack-card">
+        <div class="smack-card__copy"><span class="smack-index">06 / DEVELOPER TOOLS</span><h3>Your stack, in sight.</h3><p>Docker containers, ports and networks. Homebrew packages. Language runtimes.</p></div>
         <a href="{{ '/assets/images/smack/docker.webp' | relative_url }}" aria-label="View full-size Docker screenshot"><img src="{{ '/assets/images/smack/docker.webp' | relative_url }}" alt="Docker containers grouped by project with live resource metrics, ports and controls" width="1284" height="812" loading="lazy"></a>
       </article>
     </div>
   </section>
 
-  <section class="smack-brochure container" aria-labelledby="smack-brochure-title">
-    <a class="smack-brochure__link" href="{{ '/assets/images/smack/Smack-1.0.0-Brochure.pdf' | relative_url }}">
-      <img src="{{ '/assets/images/smack/brochure-cover.webp' | relative_url }}" alt="Smack brochure cover featuring the app dashboard and performance views" width="842" height="595" loading="lazy">
-      <div>
-        <p class="smack-eyebrow">The illustrated tour</p>
-        <h2 id="smack-brochure-title">Explore the brochure.</h2>
-        <p>Smack 1.0.0 · PDF · 6.3 MB</p>
-        <span>Open brochure <span aria-hidden="true">↗</span></span>
+  <section class="smack-releases container" id="releases" aria-labelledby="smack-releases-title">
+    <div class="smack-section-heading"><p class="smack-eyebrow">Release by release</p><h2 id="smack-releases-title">Watch it work.</h2><p>Videos and material for each version. Videos play here, from YouTube.</p></div>
+    {% for release in site.data.smack_releases %}
+    <article class="smack-release" id="release-{{ release.version | slugify }}">
+      <header class="smack-release__head"><span class="smack-index">SMACK {{ release.version }}{% if forloop.first %} / LATEST{% endif %}</span><h3>{{ release.title }}</h3></header>
+      <div class="smack-release__body">
+        {% if release.videos %}
+        <div class="smack-videos">
+          {% for video in release.videos %}
+          <figure class="smack-video">
+            <a class="smack-video__frame" href="https://www.youtube.com/watch?v={{ video.youtube }}" data-youtube="{{ video.youtube }}" data-title="Smack {{ release.version }}: {{ video.title }}" target="_blank" rel="noopener" aria-label="Play video: {{ video.title }}">
+              <img src="{{ video.poster | relative_url }}" alt="{{ video.alt }}" loading="lazy">
+              <span class="smack-video__play" aria-hidden="true"></span>
+            </a>
+            <figcaption><strong>{{ video.title }}</strong>{% if video.text %}<span>{{ video.text }}</span>{% endif %}</figcaption>
+          </figure>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% for item in release.materials %}
+        <a class="smack-brochure__link" href="{{ item.url | relative_url }}">
+          <img src="{{ item.image | relative_url }}" alt="{{ item.alt }}" width="{{ item.width }}" height="{{ item.height }}" loading="lazy">
+          <div>
+            <p class="smack-eyebrow">{{ item.eyebrow }}</p>
+            <h4>{{ item.title }}</h4>
+            <p>{{ item.meta }}</p>
+            <span>{{ item.label }} <span aria-hidden="true">↗</span></span>
+          </div>
+        </a>
+        {% endfor %}
       </div>
-    </a>
+    </article>
+    {% endfor %}
   </section>
 
   <section class="smack-install container" aria-labelledby="smack-install-title">
